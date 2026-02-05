@@ -8,64 +8,104 @@ generator client {
 
 datasource db {
     provider = "sqlite"
-    // NOTE: When using mysql or sqlserver, uncomment the @db.Text annotations in model Account below
+    // NOTE: For production, use PostgreSQL with Neon
+    // provider = "postgresql"
     // Further reading:
     // https://next-auth.js.org/adapters/prisma#create-the-prisma-schema
     // https://www.prisma.io/docs/reference/api-reference/prisma-schema-reference#string
     url      = env("DATABASE_URL")
 }
 
-model Post {
-    id        Int      @id @default(autoincrement())
-    name      String
+// ============================================================================
+// MULTI-TENANCY MODELS
+// ============================================================================
+
+/// Tenant model for multi-tenancy support
+/// Each tenant represents an agency with its own isolated data
+model Tenant {
+    id        String   @id @default(cuid())
+    name      String   // Agency name
+    slug      String   @unique // URL-friendly identifier
     createdAt DateTime @default(now())
     updatedAt DateTime @updatedAt
 
-    createdBy   User   @relation(fields: [createdById], references: [id])
-    createdById String
+    // Relations
+    users User[]
 
-    @@index([name])
+    @@index([slug])
 }
 
-// Necessary for Next auth
+/// User roles for RBAC (Role-Based Access Control)
+enum UserRole {
+    AGENCY_OWNER  // Full access to agency tenant
+    CONSULTANT    // Can create/edit strategies
+    BRAND_CLIENT  // View-only access to assigned strategies
+    DEVELOPER     // Technical access (future use)
+}
+
+// ============================================================================
+// NEXTAUTH MODELS (with Multi-Tenancy)
+// ============================================================================
+
+/// User model with multi-tenancy support
+model User {
+    id            String    @id @default(cuid())
+    name          String?
+    email         String    @unique
+    emailVerified DateTime?
+    image         String?
+
+    // Multi-tenancy
+    tenantId String
+    tenant   Tenant   @relation(fields: [tenantId], references: [id], onDelete: Cascade)
+    role     UserRole @default(CONSULTANT)
+
+    // NextAuth relations
+    accounts Account[]
+    sessions Session[]
+
+    createdAt DateTime @default(now())
+    updatedAt DateTime @updatedAt
+
+    @@index([tenantId])
+    @@index([email])
+}
+
+/// NextAuth Account model for OAuth providers
 model Account {
     id                       String  @id @default(cuid())
     userId                   String
     type                     String
     provider                 String
     providerAccountId        String
-    refresh_token            String? // @db.Text
-    access_token             String? // @db.Text
+    refresh_token            String? // @db.Text for PostgreSQL
+    access_token             String? // @db.Text for PostgreSQL
     expires_at               Int?
     token_type               String?
     scope                    String?
-    id_token                 String? // @db.Text
+    id_token                 String? // @db.Text for PostgreSQL
     session_state            String?
-    user                     User    @relation(fields: [userId], references: [id], onDelete: Cascade)
     refresh_token_expires_in Int?
 
+    user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+
     @@unique([provider, providerAccountId])
+    @@index([userId])
 }
 
+/// NextAuth Session model
 model Session {
     id           String   @id @default(cuid())
     sessionToken String   @unique
     userId       String
     expires      DateTime
-    user         User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+    user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+    @@index([userId])
 }
 
-model User {
-    id            String    @id @default(cuid())
-    name          String?
-    email         String?   @unique
-    emailVerified DateTime?
-    image         String?
-    accounts      Account[]
-    sessions      Session[]
-    posts         Post[]
-}
-
+/// NextAuth VerificationToken model for email verification
 model VerificationToken {
     identifier String
     token      String   @unique
