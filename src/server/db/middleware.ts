@@ -71,11 +71,7 @@ export const tenantExtension = Prisma.defineExtension({
   query: {
     $allModels: {
       async $allOperations({ model, operation, args, query }) {
-        // Skip if no model
-        if (!model) {
-          return query(args);
-        }
-
+        // model is always defined in $allModels context
         // Normalize model name (handle both "User" and "user" casing)
         const modelName = model.charAt(0).toUpperCase() + model.slice(1);
 
@@ -113,39 +109,34 @@ export const tenantExtension = Prisma.defineExtension({
           case "groupBy":
             args.where = args.where || {};
             if (typeof args.where === "object") {
-              args.where = {
-                ...args.where,
-                tenantId: currentTenantId,
-              };
+              (args.where as Record<string, unknown>).tenantId = currentTenantId;
             }
             break;
 
           // Create operations - inject tenantId if not provided
           case "create":
-          case "createAndReturn":
             args.data = args.data || {};
             if (typeof args.data === "object") {
-              const providedTenantId = (args.data as any).tenantId;
+              const dataWithTenant = args.data as Record<string, unknown>;
+              const providedTenantId = dataWithTenant.tenantId;
 
               // Inject tenantId only if not explicitly provided
               // This allows explicit override for admin/cross-tenant operations
               if (!providedTenantId) {
-                args.data = {
-                  ...args.data,
-                  tenantId: currentTenantId,
-                };
+                (args.data as Record<string, unknown>).tenantId = currentTenantId;
               }
             }
             break;
 
           // Batch create - inject tenantId for each record if not provided
           case "createMany":
-          case "createManyAndReturn":
             if (Array.isArray(args.data)) {
-              args.data = args.data.map((record: any) => ({
-                ...record,
-                tenantId: record.tenantId || currentTenantId,
-              }));
+              (args as { data: Record<string, unknown>[] }).data = args.data.map(
+                (record: Record<string, unknown>) => ({
+                  ...record,
+                  tenantId: record.tenantId || currentTenantId,
+                })
+              );
             }
             break;
 
@@ -154,10 +145,7 @@ export const tenantExtension = Prisma.defineExtension({
           case "updateMany":
             args.where = args.where || {};
             if (typeof args.where === "object") {
-              args.where = {
-                ...args.where,
-                tenantId: currentTenantId,
-              };
+              (args.where as Record<string, unknown>).tenantId = currentTenantId;
             }
             break;
 
@@ -165,16 +153,13 @@ export const tenantExtension = Prisma.defineExtension({
           case "upsert":
             args.where = args.where || {};
             if (typeof args.where === "object") {
-              args.where = {
-                ...args.where,
-                tenantId: currentTenantId,
-              };
+              (args.where as Record<string, unknown>).tenantId = currentTenantId;
             }
             if (args.create && typeof args.create === "object") {
-              args.create = {
-                ...args.create,
-                tenantId: (args.create as any).tenantId || currentTenantId,
-              };
+              const createData = args.create as Record<string, unknown>;
+              if (!createData.tenantId) {
+                createData.tenantId = currentTenantId;
+              }
             }
             break;
 
@@ -183,10 +168,7 @@ export const tenantExtension = Prisma.defineExtension({
           case "deleteMany":
             args.where = args.where || {};
             if (typeof args.where === "object") {
-              args.where = {
-                ...args.where,
-                tenantId: currentTenantId,
-              };
+              (args.where as Record<string, unknown>).tenantId = currentTenantId;
             }
             break;
         }
