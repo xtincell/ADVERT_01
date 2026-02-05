@@ -15,7 +15,9 @@
     "start": "next start",
     "typecheck": "tsc --noEmit",
     "lint": "eslint .",
-    "format": "prettier --write ."
+    "format": "prettier --write .",
+    "test": "vitest run",
+    "test:watch": "vitest"
   },
   "dependencies": {
     "@auth/prisma-adapter": "^2.7.2",
@@ -42,13 +44,16 @@
     "@types/react-dom": "^19.0.0",
     "@typescript-eslint/eslint-plugin": "^8.54.0",
     "@typescript-eslint/parser": "^8.54.0",
+    "@vitest/ui": "^4.0.18",
     "eslint": "^9.39.2",
     "eslint-config-next": "^16.1.6",
     "postcss": "^8.5.3",
     "prettier": "^3.8.1",
     "prisma": "^6.6.0",
+    "strip-json-comments": "^5.0.3",
     "tailwindcss": "^4.0.15",
-    "typescript": "^5.8.2"
+    "typescript": "^5.8.2",
+    "vitest": "^4.0.18"
   },
   "ct3aMetadata": {
     "initVersion": "7.40.0"
