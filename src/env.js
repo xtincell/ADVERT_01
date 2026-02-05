@@ -17,6 +17,10 @@ export const env = createEnv({
     NODE_ENV: z
       .enum(["development", "test", "production"])
       .default("development"),
+    // Inngest - Background job processing
+    // Optional in development (Inngest dev server doesn't require them)
+    INNGEST_EVENT_KEY: z.string().optional(),
+    INNGEST_SIGNING_KEY: z.string().optional(),
   },
 
   /**
@@ -38,6 +42,8 @@ export const env = createEnv({
     AUTH_DISCORD_SECRET: process.env.AUTH_DISCORD_SECRET,
     DATABASE_URL: process.env.DATABASE_URL,
     NODE_ENV: process.env.NODE_ENV,
+    INNGEST_EVENT_KEY: process.env.INNGEST_EVENT_KEY,
+    INNGEST_SIGNING_KEY: process.env.INNGEST_SIGNING_KEY,
   },
   /**
    * Run `build` or `dev` with `SKIP_ENV_VALIDATION` to skip env validation. This is especially
