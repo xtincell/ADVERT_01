@@ -1,31 +1,29 @@
-# ADVERT_01
+# Create T3 App
 
-SaaS Platform for African Marketing Agencies - Built with BMAD Framework
+This is a [T3 Stack](https://create.t3.gg/) project bootstrapped with `create-t3-app`.
 
-## Project Overview
+## What's next? How do I make an app with this?
 
-ADVERT is a dual-view platform that systematizes brand cult creation, enabling African agencies to compete with global marketing giants.
+We try to keep this project as simple as possible, so you can start with just the scaffolding we set up for you, and add additional things later when they become necessary.
 
-## Structure
+If you are not familiar with the different technologies used in this project, please refer to the respective docs. If you still are in the wind, please join our [Discord](https://t3.gg/discord) and ask for help.
 
-- `_bmad/` - BMAD Framework (v6.0.0-Beta.5) - agents, workflows, and configurations
-- `_bmad-output/` - Generated artifacts (PRD, architecture, epics, planning documents)
-- `.claude/commands/` - Claude Code integration commands
+- [Next.js](https://nextjs.org)
+- [NextAuth.js](https://next-auth.js.org)
+- [Prisma](https://prisma.io)
+- [Drizzle](https://orm.drizzle.team)
+- [Tailwind CSS](https://tailwindcss.com)
+- [tRPC](https://trpc.io)
 
-## Quick Start
+## Learn More
 
-This project uses the BMAD (Business Model Analysis and Design) framework integrated with Claude Code.
+To learn more about the [T3 Stack](https://create.t3.gg/), take a look at the following resources:
 
-Available workflows include:
-- Product planning (PRD, product briefs, UX design)
-- Architecture and solutioning
-- Sprint planning and implementation
-- Code review and QA automation
+- [Documentation](https://create.t3.gg/)
+- [Learn the T3 Stack](https://create.t3.gg/en/faq#what-learning-resources-are-currently-available) — Check out these awesome tutorials
 
-## Status
+You can check out the [create-t3-app GitHub repository](https://github.com/t3-oss/create-t3-app) — your feedback and contributions are welcome!
 
-Active development - Planning and architecture phase completed.
+## How do I deploy this?
 
-## License
-
-TBD
+Follow our deployment guides for [Vercel](https://create.t3.gg/en/deployment/vercel), [Netlify](https://create.t3.gg/en/deployment/netlify) and [Docker](https://create.t3.gg/en/deployment/docker) for more information.
