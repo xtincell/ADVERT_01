@@ -57,7 +57,7 @@ development_status:
   2-1-user-registration-with-email-and-password: review
   2-2-user-login-with-credentials-and-session-management: review
   2-3-password-reset-via-email-link: review
-  2-4-user-profile-management-and-updates: backlog
+  2-4-user-profile-management-and-updates: review
   epic-2-retrospective: optional
 
   # Epic 3: Strategy Creation & AI Generation

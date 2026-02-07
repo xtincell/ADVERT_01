@@ -8,5 +8,5 @@ export const { auth: middleware } = NextAuth(authConfig);
 export const config = {
   // Match protected and auth routes
   // Skip API routes, static files, and public assets
-  matcher: ["/dashboard/:path*", "/login", "/register"],
+  matcher: ["/dashboard/:path*", "/settings/:path*", "/login", "/register"],
 };

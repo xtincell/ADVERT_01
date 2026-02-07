@@ -1,5 +1,6 @@
 import { useSession, signOut } from "next-auth/react";
-import { Loader2, LogOut, User } from "lucide-react";
+import Link from "next/link";
+import { Loader2, LogOut, Settings, User } from "lucide-react";
 
 import { Button } from "~/components/ui/button";
 import {
@@ -39,8 +40,14 @@ export default function DashboardPage() {
           <div className="flex items-center gap-4">
             <div className="flex items-center gap-2 text-sm text-muted-foreground">
               <User className="h-4 w-4" />
-              {session.user.email}
+              {session.user.name ?? session.user.email}
             </div>
+            <Link href="/settings/profile">
+              <Button variant="ghost" size="sm">
+                <Settings className="mr-2 h-4 w-4" />
+                Settings
+              </Button>
+            </Link>
             <Button variant="ghost" size="sm" onClick={handleSignOut}>
               <LogOut className="mr-2 h-4 w-4" />
               Log out

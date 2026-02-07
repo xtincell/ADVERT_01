@@ -122,7 +122,7 @@ export const authConfig = {
       const { pathname } = request.nextUrl;
 
       // Protected routes that require authentication
-      const protectedPaths = ["/dashboard"];
+      const protectedPaths = ["/dashboard", "/settings"];
       const isProtected = protectedPaths.some((p) => pathname.startsWith(p));
 
       // Auth pages that logged-in users should be redirected away from
