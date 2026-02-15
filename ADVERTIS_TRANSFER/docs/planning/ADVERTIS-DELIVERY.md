@@ -1,8 +1,8 @@
-# 🎉 AMARA Strategic Interface - Livraison Finale v2.0 Premium
+# 🎉 ADVERTIS Strategic Interface - Livraison Finale v2.0 Premium
 
 **Date :** 2026-02-13
 **Version :** 2.0 Premium (80% Spec Complète)
-**Package :** AMARA-Strategic-Package-v2.0-Premium-Complete.zip (150 KB)
+**Package :** ADVERTIS-Strategic-Package-v2.0-Premium-Complete.zip (150 KB)
 
 ---
 
@@ -325,7 +325,7 @@ strategic-interface-amara/
 
 ### Contact
 - 🤖 BMAD Framework Support
-- 📧 Équipe projet AMARA
+- 📧 Équipe projet ADVERTIS
 
 ---
 
@@ -353,6 +353,6 @@ strategic-interface-amara/
 
 ---
 
-**AMARA Strategic Interface v2.0 Premium**
+**ADVERTIS Strategic Interface v2.0 Premium**
 *Généré par BMAD Framework | Février 2026*
 *Wear Your Story | Crafted with purpose, worn with pride* 🎨

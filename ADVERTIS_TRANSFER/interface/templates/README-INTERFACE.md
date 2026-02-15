@@ -1,4 +1,4 @@
-# AMARA Strategic Package v1.0
+# ADVERTIS Strategic Package v1.0
 
 **Complete ADVERT Framework Documentation**
 *Wear Your Story — Sustainable African Fashion Brand Strategy*
@@ -129,7 +129,7 @@ No build process required — pure HTML/CSS/JS!
 ## 📁 File Structure
 
 ```
-strategic-interface-amara/
+strategic-interface-advertis/
 ├── index.html                 # Main navigation hub
 ├── strategic-overview.html    # High-level summary
 ├── README.md                  # This file
@@ -164,7 +164,7 @@ strategic-interface-amara/
 
 ---
 
-## 📞 About AMARA
+## 📞 About ADVERTIS
 
 **Mission:** Preserve African textile heritage while empowering artisan communities through fair trade and sustainable practices.
 
@@ -178,7 +178,7 @@ strategic-interface-amara/
 
 This strategic package is proprietary and confidential. All rights reserved.
 
-For questions or support, contact the AMARA strategic team.
+For questions or support, contact the ADVERTIS strategic team.
 
 ---
 

@@ -1,11 +1,70 @@
-# Annexe E : Template de Document de Stratégie 360° — Pilier S
+# Annexe E : Template de Document de Stratégie 360° — Pilier S (Format Dual)
 
-*Guide Consultant Terrain — La Méthode ADVERT*
+*Guide Consultant Terrain — La Méthode ADVERTIS v2.0*
 *© 2026 Alexandre DJENGUE — UPgraders — Tous droits réservés*
 
 ---
 
-## Mode d'emploi
+## Mode d'emploi : Document S vs. Interface S
+
+Le **Pilier S (Strategy)** a une **nature duale** en ADVERTIS v2.0 :
+
+### Document S — Le Livrable Textuel Classique
+
+**Définition :** Rapport stratégique complet, 50-80 pages, format PDF/Word.
+
+**Quand l'utiliser :**
+- Archivage formalisé (besoin légal ou contractuel)
+- Client préférant le format papier / lecture linéaire
+- Rapports d'audit ou certification
+- Grandes organisations avec besoin de gouvernance documentée
+- Travail offline sans connexion
+
+**Contient :** Tous les piliers A→T, synthèse, recommandations, calendrier, briefs créatifs, annexes techniques
+
+**Livrable type :** Document_Strategie_360_[NOM_CLIENT]_v1.0.pdf (50-80 pages)
+
+### Interface S — Le Tableau de Bord Dynamique
+
+**Définition :** Dashboard ADVERTIS interactif dans le SaaS, mise à jour périodique possible, KPIs vivants.
+
+**Quand l'utiliser :**
+- Client tech-savvy ou startup
+- Besoin de suivi périodique (trimestriel, mensuel)
+- Équipe distribuée qui a besoin d'accès partagé
+- Monitoring continu des variables critiques
+- Comparaison période sur période
+
+**Contient :** Synthèses exécutives, KPIs actualisés, alertes, tendances, scores par pilier
+
+**Livrable type :** URL de connexion au dashboard ADVERTIS [client_id], refresh automnatique mensuel
+
+### Tableau Comparatif : Quand choisir ?
+
+| Critère | Document S | Interface S | Recommandation |
+|---|---|---|---|
+| **Format** | PDF/Word 50-80 pages | Dashboard interactif | Dual — les deux |
+| **Mise à jour** | Statique (v1.0, v2.0...) | Dynamique (time-series) | Document archivé + Dashboard vivant |
+| **Lecture** | Linéaire, narratif | Non-linéaire, scan rapide | Deux usages : exécutif vs. ops |
+| **Partage** | Email, drive | URL + authentification | Document confidentialisé + Dashboard contrôlé |
+| **Offline** | ✓ Possible | ✗ Nécessite connexion | Pour présentations / ateliers |
+| **Données temps réel** | ✗ Non | ✓ Oui | KPIs quotidiens / hebdo |
+| **Alertes** | ✗ Non | ✓ Seuils configurables | Gestion proactive des risques |
+| **Coût** | Inclus prestation | Module SaaS (optional) | À discuter avec client |
+
+### Cas d'Usage Type
+
+| Client | Recommandation |
+|---|---|
+| **Startup hautement tech** | Interface S + Document S allégé (exécutif) |
+| **PME traditionnelle** | Document S complet + formation usage |
+| **Grande entreprise / groupe** | Document S détaillé + Interface S governance |
+| **Agence de marque** | Document S pour portfolio + Interface S pour reporting client |
+| **Fondation / ONG** | Document S (budget limité) |
+
+---
+
+## Mode d'emploi : Document S
 
 Ce template est la structure du **livrable final** que vous remettez à votre client. C'est le document de stratégie 360° issu de l'analyse ADVERT complète — le Pilier S (Strategy).
 
@@ -452,6 +511,94 @@ Création de contenu → Validation Ton (D5) → Validation Marque (A1) → Publ
 - **Annexe 9.3** — SWOTs individuels complets (cf. Annexe D du guide)
 - **Annexe 9.4** — Données brutes et calculs unit economics
 - **Annexe 9.5** — Verbatims clients sélectionnés
+
+---
+
+## Section S5 : Document S — Livrables Intermédiaires
+
+*Cette section s'ajoute à la Table des Matières Type pour expliciter les versions générées.*
+
+### Versions du Document S
+
+| Version | Audience | Contenu | Format | Timing |
+|---|---|---|---|---|
+| **Brouillon (Draft)** | Consultant + équipe projet | Tous les piliers, format brut | Word/Doc collaboratif | J+15 |
+| **Relecture Client (Review)** | Client + équipe dirigeante | Tous les piliers + notes consultant | PDF annoté | J+20 |
+| **Version Finale (v1.0)** | Client + stakeholders | Tous les piliers, design professionnel | PDF signé | J+25 |
+| **Version Gouvernance (v2.0+)** | Comité de marque, historique | Archives périodiques (maj trimestrielle) | PDF daté + folder archive | J+X (révisions) |
+
+### Arborescence du Document S Final
+
+```
+DOCUMENT_STRATEGIE_360_[CLIENT]_v1.0.pdf
+
+Cover page (1 page)
+├── Executive Summary (2 pages)
+├── Context & Objectives (2-3 pages)
+├── ADVERT Diagnosis (15-20 pages)
+│   ├── Pilier A — Authenticité (2-3 pages)
+│   ├── Pilier D — Distinction (2-3 pages)
+│   ├── Pilier V — Valeur (2-3 pages)
+│   ├── Pilier E — Engagement (2-3 pages)
+│   ├── Pilier R — Risk (1-2 pages)
+│   └── Pilier T — Track (1-2 pages)
+├── Strategic Synthesis (3-4 pages)
+├── Recommendations (3-5 pages)
+├── Implementation Calendar (3-5 pages)
+├── Creative Briefs (5-10 pages) [PME+]
+├── Brand Governance (2-3 pages) [GE]
+└── Technical Annexes (5-10 pages)
+    └── Raw SWOT, data sources, interviews summary
+```
+
+---
+
+## Section S6 : Interface S — Dashboard Dynamique
+
+*Cette section documente l'accès et l'usage du dashboard ADVERTIS SaaS.*
+
+### Accès au Dashboard
+
+| Élément | Détail |
+|---|---|
+| **URL de base** | https://dashboard.advertis.io/[client_id] |
+| **Authentification** | Email/password OU SSO (si contrat inclus) |
+| **Rôles d'accès** | Admin (client) / Viewer (stakeholders) / Editor (consultant) |
+| **Durée d'accès** | Par défaut : 12 mois post-livraison, renouvelable |
+
+### Modules du Dashboard
+
+| Module | Contenu | Fréquence MAJ | KPIs visibles |
+|---|---|---|---|
+| **Dashboard Principal** | Synthèse ADVERT, scores par pilier, alertes | Temps réel | 8-10 KPIs clés |
+| **Pilier A — Authenticité** | État d'identité, valeurs, narrative | Mensuel | A1 Clarity Score, brand alignment |
+| **Pilier D — Distinction** | Positionnement, personas, concurrence | Trimestriel | Positioning clarity, market share, NPS |
+| **Pilier V — Valeur** | Unit economics, ladder, LTV/CAC | Mensuel | LTV/CAC ratio, marge brute, CAC trend |
+| **Pilier E — Engagement** | Touchpoints, rituels, AARRR, KPIs | Hebdomadaire | Acquisition, activation, rétention, revenue |
+| **Pilier R — Risk** | Score risque global, variables fragiles | Trimestriel | Global risk score, trends |
+| **Pilier T — Track** | Sources validation, TAM/SAM/SOM, tendances | Semestriel | Data confidence score, market trends |
+| **Implementation (I)** | Roadmap, quick wins, budget, team | Mensuel | Completion %, budget vs. plan |
+| **Historique & Trends** | Évolution des KPIs sur 12-36 mois | Périodique | Graphiques comparatifs, tendances |
+
+### Alertes Configurables
+
+Les administrateurs client peuvent configurer des seuils d'alerte pour :
+
+| Alerte | Déclencheur | Action |
+|---|---|---|
+| **Risk Score ↑** | Score risque > 50 | Notification email + dashboard rouge |
+| **LTV/CAC ↓** | Ratio < 2.5x | Flag pour revue V6 |
+| **Rétention ↓** | E5 rétention < seuil | Alerte engagement |
+| **Implementation delay** | Quick wins en retard | Notification responsable I9 |
+
+### Export & Reporting depuis Interface S
+
+| Export | Format | Usage |
+|---|---|---|
+| **Dashboard Snapshot** | PNG / PDF | Slides de présentation, rapports rapides |
+| **Data Export complet** | CSV / Excel | Analyse avancée, CRM integration |
+| **Rapport de Tendances** | PDF auto-généré | Revue trimestrielle comité marque |
+| **Comparatif Avant/Après** | PDF annotée | Démonstration ROI, audit externe |
 
 ---
 

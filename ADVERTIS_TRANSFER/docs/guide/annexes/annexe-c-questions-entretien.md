@@ -1,6 +1,6 @@
 # Annexe C : Banque de Questions d'Entretien Client
 
-*Guide Consultant Terrain — La Méthode ADVERT*
+*Guide Consultant Terrain — La Méthode ADVERTIS v2.0*
 *© 2026 Alexandre DJENGUE — UPgraders — Tous droits réservés*
 
 ---
@@ -307,6 +307,68 @@ Cette banque contient **toutes les questions** que vous pouvez poser au fondateu
 
 ---
 
+## Pilier I — Implémentation
+
+*Note : Les questions du Pilier I se posent APRÈS la finalisation de tous les piliers A→T. Elles visent à construire le plan d'exécution.*
+
+### I1 — Roadmap Stratégique
+
+1. ○ « Si on doit transformer cette stratégie en réalité, par où on commence ? »
+2. ○ « Quel moment du calendrier sera critique pour prouver le succès ? »
+3. ● « Vous imaginez le déploiement en combien de phases ? 2 ? 3 ? 4 ? »
+4. ○ « Qu'est-ce qui pourrait vous empêcher d'exécuter ce plan — ressources, compétences, temps ? »
+5. ★ « Si vous aviez 30 jours pour prouver que la stratégie fonctionne, que changeriez-vous dans le plan ? »
+
+### I2-I3 — Phases de Lancement & Durée Phase 1
+
+1. ○ « Quelle action pourriez-vous lancer CETTE SEMAINE si on le décidait maintenant ? »
+2. ○ « Qu'est-ce qui nécessiterait 2-4 semaines ? Qu'est-ce qui en nécessiterait 3-6 mois ? »
+3. ● « Phase 1, c'est plutôt : <2 semaines ? 2-4 semaines ? 1 mois ? »
+4. ○ « Qu'est-ce que vous aimeriez voir se passer rapidement pour créer de l'élan ? »
+5. ★ « Cette durée est-elle réaliste par rapport à votre capacité interne ? »
+
+### I4 — Quick Wins
+
+1. ○ « Nommez-moi 3 actions qui auraient un impact visible immédiatement, sans gros budget. »
+2. ○ « Avez-vous déjà envisagé des expériences rapides pour tester la stratégie ? »
+3. ● « Un quick win devrait coûter : < 5k ? < 20k ? < 50k ? »
+4. ○ « Qui dans votre équipe peut la/les exécuter sans demander l'autorisation ? »
+5. ★ « Comment sauriez-vous que le quick win a marché ? »
+
+### I5-I6 — Budget Total et Budget Phase 1
+
+1. ● « Quel budget total êtes-vous prêt à investir sur 12 mois ? »
+2. ○ « Comment serait structuré ce budget — 50% design ? 40% tech ? 30% marketing ? »
+3. ● « Pour la Phase 1 (quick wins), quel budget libérez-vous d'emblée ? »
+4. ○ « Y a-t-il des sources de financement alternatives — subventions, partenaires, investisseurs ? »
+5. ★ « Si le budget devait baisser de 30%, où couperiez-vous en premier ? »
+
+### I7-I8 — ROI Cible & Payback Period
+
+1. ○ « Comment mesurez-vous le succès d'une initiative stratégique ? En revenue ? Brand ? Rétention ? »
+2. ● « Quel ROI voudriez-vous voir revenir sur cet investissement — 2x ? 3x ? 5x ? »
+3. ○ « En combien de mois pensez-vous retrouver le budget investi — 6 ? 12 ? 18 ? »
+4. ○ « Qu'est-ce qui changerait si le payback passait de 12 à 18 mois ? »
+5. ★ « Ces chiffres sont-ils alignés avec vos attentes d'investisseur / actionnaire ? »
+
+### I9-I10 — Structure d'Équipe & Clés Roles
+
+1. ○ « Aujourd'hui, qui est responsable de la stratégie marque dans votre organisation ? »
+2. ○ « Quel rôle doit être créé ou renforcé pour exécuter ce plan ? »
+3. ● « Les compétences clés sont plutôt en interne ou faut-il recruter ? »
+4. ○ « Avez-vous un CMO / directeur marketing ? Un responsable produit ? Un community manager ? »
+5. ★ « Si je dois identifier la personne clé pour que ça réussisse, c'est qui ? »
+
+### I11 — Partenaires Externes
+
+1. ○ « Pour le design / identité visuelle, travaillez-vous déjà avec une agence ? »
+2. ○ « Et pour le digital — avez-vous une agence web, SEO, social media ? »
+3. ● « Souhaitez-vous consolider avec 1-2 agences partenaires, ou préférez-vous les best-of-breed ? »
+4. ○ « Avez-vous un budget partenaire ou c'est tout interne + freelancers ? »
+5. ★ « Qui gère la relation avec les prestataires — vous ou un consultant ? »
+
+---
+
 ## Questions Bonus — Clôture d'Entretien
 
 Ces questions se posent à la fin de chaque session pour capturer ce qui n'a pas été dit :
@@ -319,6 +381,6 @@ Ces questions se posent à la fin de chaque session pour capturer ce qui n'a pas
 
 ---
 
-**Total : 165+ questions couvrant les 33 variables des 7 piliers**
+**Total : 215+ questions couvrant les 47 variables des 9 piliers**
 
 *Conseil : Créez votre propre sélection de 20-25 questions favorites pour vos entretiens d'audit initial. Vous ajusterez au fil de l'expérience.*

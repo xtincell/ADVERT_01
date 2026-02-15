@@ -19,7 +19,7 @@ inputDocuments:
 
 ### Project Vision
 
-ADVERT_01 démocratise la sophistication des grandes agences internationales pour les agences publicitaires africaines. La plateforme transforme la création de campagnes stratégiques d'un processus opaque et chronophage en une expérience guidée, transparente et psychologiquement fondée. En combinant une méthodologie à 6 piliers (A-D-V-E-R-T), un AI co-pilot intelligent et un Creative Concierge Marketplace, ADVERT_01 brise le cercle vicieux de la médiocrité et positionne les agences africaines pour gagner des clients prestigieux.
+ADVERT_01 démocratise la sophistication des grandes agences internationales pour les agences publicitaires africaines. La plateforme transforme la création de campagnes stratégiques d'un processus opaque et chronophage en une expérience guidée, transparente et psychologiquement fondée. En combinant une méthodologie à 8 piliers (A-D-V-E-R-T), un AI co-pilot intelligent et un Creative Concierge Marketplace, ADVERT_01 brise le cercle vicieux de la médiocrité et positionne les agences africaines pour gagner des clients prestigieux.
 
 **North Star Metric:** Superfans - des utilisateurs qui ne se contentent pas d'utiliser l'outil, mais qui l'adorent et le recommandent activement.
 
@@ -63,7 +63,7 @@ ADVERT_01 démocratise la sophistication des grandes agences internationales pou
 
 **Challenge 1: Le Paradoxe Sophistication-Simplicité**
 
-La méthodologie ADVERT à 6 piliers est psychologiquement sophistiquée, mais doit se sentir simple et accessible. Trop de complexité exposée → abandon. Trop simplifiée → perte de crédibilité.
+La méthodologie ADVERT à 8 piliers est psychologiquement sophistiquée, mais doit se sentir simple et accessible. Trop de complexité exposée → abandon. Trop simplifiée → perte de crédibilité.
 
 **Approche UX:**
 - Progressive disclosure: révéler la sophistication progressivement
@@ -151,7 +151,7 @@ ADVERT_01 transforme la création de stratégie publicitaire d'un processus inti
 
 **Core Loop Utilisateur:**
 1. **Initiation:** Amina (directrice d'agence) démarre une nouvelle stratégie avec un contexte minimal (nom de marque, objectif de campagne)
-2. **Conversation Guidée:** L'AI co-pilot pose des questions structurées à travers les 6 piliers ADVERT, révélant progressivement la profondeur méthodologique
+2. **Conversation Guidée:** L'AI co-pilot pose des questions structurées à travers les 8 piliers ADVERT, révélant progressivement la profondeur méthodologique
 3. **Révélations Progressives:** À chaque pilier, des insights psychologiques apparaissent, transformant une idée basique en stratégie sophistiquée
 4. **Validation & Raffinement:** Amina peut éditer, ajuster, approfondir chaque section avec contrôle total
 5. **Livrable Final:** Stratégie ADVERT complète, exportable en formats pitch-ready (PDF, PowerPoint, web)
@@ -208,7 +208,7 @@ L'interaction avec l'IA doit sembler naturelle, comme discuter avec un stratège
 
 **2. Progressive Disclosure de Sophistication**
 
-Les 6 piliers ADVERT sont sophistiqués mais ne doivent jamais submerger.
+Les 8 piliers ADVERT sont sophistiqués mais ne doivent jamais submerger.
 
 **Effortless Tactics:**
 - **One Pillar at a Time:** Focus tunnel sur pilier actif, autres piliers visibles mais faded
@@ -217,7 +217,7 @@ Les 6 piliers ADVERT sont sophistiqués mais ne doivent jamais submerger.
 - **Inline Education:** Tooltips contextuels ("Pourquoi ce pilier?") sans quitter le flow
 - **Quick Skip Option:** "Utiliser suggestion IA" si utilisateur veut avancer vite
 
-**Anti-Pattern à Éviter:** Révéler tous les 6 piliers simultanément, wizard rigide sans retour arrière
+**Anti-Pattern à Éviter:** Révéler tous les 8 piliers simultanément, wizard rigide sans retour arrière
 
 **3. Édition & Contrôle Sans Friction**
 
@@ -379,7 +379,7 @@ Ces principes guident chaque décision de design, interaction, et feature pour A
 *"Rendre le complexe accessible à travers le guidage intelligent, pas la simplification excessive."*
 
 **Manifestation:**
-- Méthodologie à 6 piliers révélée progressivement (one pillar at a time)
+- Méthodologie à 8 piliers révélée progressivement (one pillar at a time)
 - AI co-pilot qui pose questions structurées (pas formulaires intimidants)
 - Inline education contextuelle (pas manuels séparés)
 - Sophistication accessible aux non-experts, profondeur disponible pour experts
@@ -666,7 +666,7 @@ L'objectif émotionnel primaire d'ADVERT_01 est de transformer le sentiment de "
 
 **1. Confiance > Confusion**
 
-**Contexte:** Interaction avec AI co-pilot, guidage à travers les 6 piliers
+**Contexte:** Interaction avec AI co-pilot, guidage à travers les 8 piliers
 
 **Manifestation de Confiance:**
 - Questions claires, contextuelles, jamais ambiguës

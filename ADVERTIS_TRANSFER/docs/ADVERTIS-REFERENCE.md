@@ -232,7 +232,7 @@ S (Strategy) → Synthèse + Interface de tout
 ### Termes Obsolètes
 
 ❌ ADVERT (v1.0 dépréciée)
-❌ 6 piliers (incomplet)
+❌ 8 piliers (incomplet)
 ❌ Interface AMARA (AMARA = dummy brand)
 ❌ Document S uniquement (S = dual)
 

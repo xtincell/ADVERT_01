@@ -15189,7 +15189,7 @@ So that **I can use the platform in my native language without language barriers
 **Then** prompts are in French:
 - "Parlons de votre marque. Quel est le nom de votre marque?"
 - "Décrivez votre public cible en quelques mots."
-- "Génial! Je génère maintenant votre stratégie à 6 piliers. Cela prendra environ 8 minutes."
+- "Génial! Je génère maintenant votre stratégie à 8 piliers. Cela prendra environ 8 minutes."
 - Progress: "Génération du pilier 2 sur 6..."
 - Completion: "Stratégie générée avec succès! 🎉"
 
@@ -16348,15 +16348,311 @@ Epic 14: PWA, Accessibility & UX Polish (10 stories) is now fully documented wit
 
 ---
 
-## 🎊 ALL 14 EPICS COMPLETE! 🎊
+## Epic 15: Pilier I - Implementation Planner
 
-**ADVERT_01 Epic Breakdown is now 100% complete!**
+**Goal:** Enable consultants to transform strategic recommendations into comprehensive implementation roadmaps, bridging the strategy-to-execution gap.
+
+**User Outcome:** Consultants can create 12-24 month implementation roadmaps with dependencies, milestones, resource allocation, and risk mitigation in <2 hours. Clients receive detailed execution plans with 80%+ adoption rates.
+
+**Why This Epic Matters:** Traditional strategy consulting ends with recommendations; clients are left asking "but how do we actually do this?" Pilier I answers that question with specificity—turning abstract strategy into concrete, executable roadmaps with dependencies, risks, and quick wins.
+
+**Key Features:**
+- 12-24 month implementation timeline generation
+- Dependency mapping and critical path analysis
+- Resource allocation and capacity planning
+- Risk mitigation strategies with contingency plans
+- Quick wins identification for immediate traction
+- ROI calculators and business case justification
+- Milestone tracking and KPI frameworks
+- Integration with Pilier S cockpit for real-time progress visibility
+
+**User Stories:**
+
+### Story 15.1: Create Implementation Roadmap from Strategy
+
+As a **consultant**,
+I want **to convert ADVERT strategy recommendations into a detailed 12-24 month implementation roadmap**,
+So that **clients have a clear, actionable path forward and I can deliver "strategy-to-execution" services**.
+
+**Acceptance Criteria:**
+- Roadmap generated from any ADVERT nucleus (all 6 pillars)
+- Timeline configurable: 6/12/18/24 months
+- Minimum 15 implementation phases with milestones
+- Dependency mapping between phases shown visually
+- Resource requirements estimated per phase
+- Created in <120 minutes by experienced consultant
+
+---
+
+### Story 15.2: Identify Quick Wins from Roadmap
+
+As a **consultant**,
+I want **to automatically identify 5+ quick wins from the implementation roadmap**,
+So that **clients can see immediate traction and build confidence in the broader plan**.
+
+**Acceptance Criteria:**
+- Quick wins are implementable in 30-90 days
+- Each quick win has measurable success criteria
+- Quick wins don't require significant resources
+- At least 1 quick win ready to start immediately (Month 1)
+- Quick wins linked to Pilier S cockpit for tracking
+
+---
+
+### Story 15.3: Calculate Implementation ROI
+
+As a **consultant**,
+I want **to generate ROI calculations and business case justification for the implementation roadmap**,
+So that **clients can present the investment case to their leadership/board**.
+
+**Acceptance Criteria:**
+- Investment required per phase calculated
+- Revenue/cost savings projections for each phase
+- Break-even point identified
+- ROI summary in <15 minutes
+- Professional business case format exportable
+
+---
+
+### Story 15.4: Risk Mitigation Planning
+
+As a **consultant**,
+I want **to identify risks at each implementation phase and develop mitigation strategies**,
+So that **clients are prepared for challenges and can adjust proactively**.
+
+**Acceptance Criteria:**
+- Risk register generated for all 15+ implementation phases
+- Probability and impact scoring (High/Medium/Low)
+- Mitigation strategy for each high-priority risk
+- Contingency plans for critical path risks
+- Risk monitoring dashboard in Pilier S
+
+---
+
+### Story 15.5: Resource Allocation & Capacity Planning
+
+As a **consultant**,
+I want **to estimate required team size, skills, and capacity for each implementation phase**,
+So that **clients know how to staff the initiative appropriately**.
+
+**Acceptance Criteria:**
+- Resource requirements per phase (headcount, skills, time commitment)
+- Build-vs-buy recommendations for specialized roles
+- Timeline for hiring/onboarding if needed
+- Capacity constraints and bottlenecks identified
+- Org chart template provided for resourcing
+
+---
+
+### Story 15.6: Export Implementation Roadmap
+
+As a **consultant**,
+I want **to export the implementation roadmap in multiple formats for client delivery**,
+So that **clients can share the plan across their organization**.
+
+**Acceptance Criteria:**
+- Export formats: PDF (professional), PowerPoint (presentation), Excel (detailed plan)
+- Gantt chart visualization included
+- Editable templates for team customization
+- Branded with client logo and colors
+- <30 seconds export time
+
+---
+
+## Epic 16: Pilier S - Strategic Cockpit Interface
+
+**Goal:** Deliver a real-time strategic and operational dashboard that serves as both a client deliverable and an operational control center.
+
+**User Outcome:** Agencies and brands have a unified dashboard showing real-time strategy execution progress, financial metrics, campaign coherence, superfan health, and KPI tracking. The cockpit becomes the single source of truth for strategic performance.
+
+**Why This Epic Matters:** Strategy documents are static artifacts; by Month 2 they're gathering dust. Pilier S transforms strategy into a living system with real-time visibility. Executives can see at a glance: Are we on track? What's working? What needs adjustment? The cockpit enables monthly strategic conversations backed by data instead of gut feel.
+
+**Key Features:**
+- Real-time dashboard of all 6 pillars + Pilier I implementation progress
+- Financial clarity: budget allocation, spend tracking, ROI monitoring
+- Campaign coherence scoring with real-time updates
+- Superfan community health metrics and growth tracking
+- Implementation progress linked to Pilier I roadmaps
+- Multi-user access with role-based permissions
+- <2 second load times with <100ms real-time updates
+- WCAG 2.1 AA accessibility compliance
+- Mobile responsive for executive review on-the-go
+
+**User Stories:**
+
+### Story 16.1: Build Strategic Cockpit Dashboard Layout
+
+As a **designer/developer**,
+I want **to create an intuitive, information-rich dashboard layout showing all key metrics**,
+So that **executives can grasp strategic status at a glance**.
+
+**Acceptance Criteria:**
+- 6 pillar status cards (progress %, key metrics, alerts)
+- Pilier I implementation progress (phases complete, on-track status)
+- Campaign coherence score (real-time update)
+- Superfan growth trend graph
+- Financial metrics widget (budget vs. actual, ROI)
+- Quick actions panel (export, share, update data)
+- Responsive on desktop (1920×1080), tablet (768×1024)
+- Load time <2 seconds
+
+---
+
+### Story 16.2: Implement Real-Time Data Synchronization
+
+As a **developer**,
+I want **to sync cockpit data with ADVERT nucleus and Pilier I in real-time**,
+So that **users always see current strategic status without manual refresh**.
+
+**Acceptance Criteria:**
+- WebSocket or Server-Sent Events (SSE) for real-time updates
+- <100ms latency for data refresh
+- All 6 pillars sync automatically when updated
+- Pilier I implementation progress updates in real-time
+- Financial data syncs from connected tools (Zoho, HubSpot)
+- Graceful degradation if real-time connection fails (fallback to polling)
+
+---
+
+### Story 16.3: Financial Clarity Dashboard Module
+
+As a **brand director**,
+I want **to see exactly where budget goes and how to multiply ROI**,
+So that **I can make data-driven decisions and prove value to my CFO**.
+
+**Acceptance Criteria:**
+- Budget allocation visualization (pie/bar chart by channel/tactic)
+- Spend tracking with variance from plan (budget vs. actual)
+- ROI projection calculator (if trend continues, what's final ROI?)
+- Unit economics module (cost per superfan, cost per impression, etc.)
+- Monthly trend tracking (3/6/12 month views)
+- Predictability forecast (confidence level in projections)
+- Exportable as "Board-ready" report
+
+---
+
+### Story 16.4: Campaign Coherence Monitoring
+
+As a **consultant**,
+I want **to track campaign coherence score in real-time as client executes strategy**,
+So that **we can identify coherence drift early and adjust**.
+
+**Acceptance Criteria:**
+- Coherence score calculated from pillar alignment metrics
+- Real-time updates as client provides execution data
+- Alerts when coherence drops below threshold (80%)
+- Drill-down to see which pillars are drifting
+- Recommendations for alignment corrections
+- Historical trend showing coherence trajectory
+
+---
+
+### Story 16.5: Superfan Health & Growth Tracking
+
+As a **brand director**,
+I want **to see superfan count growth over time and segment by behavior/engagement**,
+So that **I can prove community building to my CEO**.
+
+**Acceptance Criteria:**
+- Superfan count dashboard with growth graph
+- Segmentation by acquisition source (organic, paid, referral, etc.)
+- Engagement metrics (content consumption, share rate, advocacy actions)
+- Retention cohort analysis (% retained month-over-month)
+- Predictive forecast (if trend continues, how many superfans in 12 months?)
+- Comparison to benchmarks ("Your growth is 2.3x sector average")
+
+---
+
+### Story 16.6: Implementation Progress Dashboard (Pilier I Integration)
+
+As a **consultant**,
+I want **to track real-time progress against the implementation roadmap**,
+So that **we can see what's on track, what's slipping, and adjust proactively**.
+
+**Acceptance Criteria:**
+- Gantt chart showing phase progress
+- Percentage complete per phase
+- Status indicators (on-track, at-risk, off-track)
+- Milestone completion tracking
+- Resource utilization vs. capacity
+- Risk status (active risks, mitigations in progress)
+- Monthly performance trending
+
+---
+
+### Story 16.7: Multi-User Access & Permissions
+
+As a **agency owner**,
+I want **to control who can see/edit what on the cockpit**,
+So that **clients see appropriate data, internal teams have full access, executives see summaries**.
+
+**Acceptance Criteria:**
+- 4 role types: Agency Owner (full), Consultant (edit), Client (view-only), Executive (summary only)
+- Granular permissions by section (some users see financials, others don't)
+- Real-time collaboration (multiple users viewing/editing simultaneously)
+- Activity log showing who changed what and when
+- Session management (track active users, log out inactive sessions)
+
+---
+
+### Story 16.8: Export & Share Strategic Reports
+
+As a **consultant**,
+I want **to export cockpit state as professional reports in multiple formats**,
+So that **I can share progress with stakeholders in their preferred format**.
+
+**Acceptance Criteria:**
+- Export formats: PDF (executive summary), PowerPoint (presentation), Excel (detailed data)
+- Branding applied (logo, colors, fonts)
+- Customizable content (which sections to include)
+- <5 seconds export time for PDF (100 pages)
+- Email share directly from cockpit
+- Schedule automatic reports (weekly/monthly email)
+
+---
+
+### Story 16.9: WCAG 2.1 AA Accessibility Compliance
+
+As a **user with accessibility needs**,
+I want **to use the cockpit fully via keyboard navigation and screen readers**,
+So that **I'm not excluded from strategic decision-making**.
+
+**Acceptance Criteria:**
+- All features accessible via keyboard only (no mouse required)
+- Screen reader tested and compatible (NVDA, JAWS, VoiceOver)
+- 4.5:1 contrast ratio for all text
+- Semantic HTML with proper ARIA labels
+- Focus management with visible focus indicators
+- Alt text on all charts and visualizations
+- Keyboard shortcuts documented (Ctrl+E export, Ctrl+S save, etc.)
+
+---
+
+### Story 16.10: Mobile-Responsive Strategic Review
+
+As a **executive on the go**,
+I want **to check strategic progress from my phone or tablet**,
+So that **I don't need a laptop to stay informed**.
+
+**Acceptance Criteria:**
+- Full responsive design (768px minimum for tablet)
+- Summary view optimized for mobile (key metrics, alerts only)
+- Touch-friendly buttons (44×44px minimum)
+- Readable charts and graphs on smaller screens
+- Offline mode with last-synced data available
+- Performance <3 seconds load on 4G connection
+
+---
+
+## 🎊 ALL 16 EPICS COMPLETE! 🎊
+
+**ADVERT v2.0 Epic Breakdown is now 100% complete!**
 
 **Final Statistics:**
-- **Total Epics**: 14
-- **Total Stories**: 129 stories
-- **Total FRs Covered**: 112 functional requirements
-- **Total NFRs Covered**: 30+ non-functional requirements
+- **Total Epics**: 16 (14 original + 2 new Pilier I & S)
+- **Total Stories**: 149 stories (129 original + 20 new)
+- **Total FRs Covered**: 120+ functional requirements
+- **Total NFRs Covered**: 35+ non-functional requirements
 - **Document Size**: ~16,000+ lines of detailed specifications
 
 **Epic Summary:**
@@ -16374,6 +16670,8 @@ Epic 14: PWA, Accessibility & UX Polish (10 stories) is now fully documented wit
 12. ✅ **Epic 12**: Third-Party Integrations & API (9 stories)
 13. ✅ **Epic 13**: Compliance, Security & Enterprise Features (12 stories)
 14. ✅ **Epic 14**: PWA, Accessibility & UX Polish (10 stories)
+15. ✅ **Epic 15**: Pilier I - Implementation Planner (6 stories)
+16. ✅ **Epic 16**: Pilier S - Strategic Cockpit Interface (10 stories)
 
 **The complete epic breakdown is ready for:**
 - Development team implementation

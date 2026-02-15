@@ -1,6 +1,6 @@
 ---
 project: ADVERT_01
-brand: AMARA - Wear Your Story
+brand: ADVERTIS - Wear Your Story
 document_type: ux_specification
 focus: Interface Publique de Présentation Stratégique
 audience: Client + Agence
@@ -11,13 +11,13 @@ author: Sally (UX Designer Agent) + spark01
 status: DRAFT_V1
 ---
 
-# Spécification UX - Interface de Présentation AMARA
+# Spécification UX - Interface de Présentation ADVERTIS
 
 ## 🎯 Vision de l'Interface
 
 ### Objectif Central
 
-Créer une **expérience web publique immersive** qui transforme les 8 documents stratégiques ADVERT (S, A, D, V, E, R, T, I) en un **récit visuel captivant** pour la marque AMARA "Wear Your Story".
+Créer une **expérience web publique immersive** qui transforme les 8 documents stratégiques ADVERT (S, A, D, V, E, R, T, I) en un **récit visuel captivant** pour la marque ADVERTIS "Wear Your Story".
 
 **Transformation visée :**
 - ❌ De : 8 documents PDF séparés, texte dense, format corporate
@@ -31,10 +31,10 @@ La stratégie ADVERT n'est pas un document à lire - c'est une **histoire de mar
 
 **Principes Directeurs :**
 
-1. **Storytelling Visuel** - Chaque section raconte un chapitre de l'histoire AMARA
+1. **Storytelling Visuel** - Chaque section raconte un chapitre de l'histoire ADVERTIS
 2. **Data Becomes Art** - Les données financières, métriques, timelines deviennent des œuvres visuelles
 3. **Progressive Discovery** - Le contenu se révèle au scroll, créant anticipation et engagement
-4. **Brand as Hero** - AMARA (la marque) est le héros du récit, pas les documents techniques
+4. **Brand as Hero** - ADVERTIS (la marque) est le héros du récit, pas les documents techniques
 5. **Dual Audience** - Impressionne le client, outille l'agence (annotations, exports, etc.)
 
 ---
@@ -44,7 +44,7 @@ La stratégie ADVERT n'est pas un document à lire - c'est une **histoire de mar
 ### Audience Primaire : Le Client (Brand Director)
 
 **Persona : Nadia Okonkwo**
-- Directrice de Marque chez AMARA
+- Directrice de Marque chez ADVERTIS
 - 38 ans, MBA, 12 ans d'expérience retail/fashion
 - Pression Board pour ROI marketing et stratégie claire
 - Besoin de comprendre ET présenter la stratégie à ses stakeholders
@@ -58,7 +58,7 @@ La stratégie ADVERT n'est pas un document à lire - c'est une **histoire de mar
    - Moment : Après réception du lien de l'agence
 
 2. **Présentation au Board (Réunion, 30-45 min)**
-   - Nadia présente la stratégie AMARA à son CEO/CFO
+   - Nadia présente la stratégie ADVERTIS à son CEO/CFO
    - Besoin : Mode présentation fullscreen, navigation fluide, crédibilité visuelle
    - Device : Desktop/Laptop + écran projeté
    - Moment : Réunion stratégique mensuelle/trimestrielle
@@ -143,7 +143,7 @@ L'interface présente les **8 documents ADVERT** dans un **récit linéaire** av
 ### Hiérarchie Visuelle
 
 **Niveau 1 : Hero Section**
-- Immersion immédiate dans l'univers AMARA
+- Immersion immédiate dans l'univers ADVERTIS
 - Tagline + visuel hero + 3-4 métriques clés
 - CTA : "Explorer la Stratégie" → scroll vers Section S
 
@@ -161,18 +161,18 @@ L'interface présente les **8 documents ADVERT** dans un **récit linéaire** av
 **Navigation Persistente :**
 - **Sidebar sticky** (desktop) : Mini-nav avec les 8 piliers + progress indicator
 - **Mobile hamburger** : Full-screen nav overlay
-- **Breadcrumbs** : Toujours visible en haut (ex: "AMARA / Engagement / Campagne 1")
+- **Breadcrumbs** : Toujours visible en haut (ex: "ADVERTIS / Engagement / Campagne 1")
 
 ---
 
 ## 🎨 Direction Artistique & Identité Visuelle
 
-### Palette de Couleurs AMARA
+### Palette de Couleurs ADVERTIS
 
 **Inspiration :** "Sustainable African Fashion" - chaleur terre, artisanat, modernité
 
 **Couleurs Primaires :**
-- **Terracotta Warm** `#C8654A` - Couleur signature AMARA, CTAs, accents
+- **Terracotta Warm** `#C8654A` - Couleur signature ADVERTIS, CTAs, accents
 - **Deep Charcoal** `#2C2420` - Texte principal, headers
 - **Cream Canvas** `#F8F5F1` - Background principal, respiration
 
@@ -302,9 +302,9 @@ xl  : 32px  - Generous (card padding large)
 **Objectif :** Immersion immédiate + captation émotionnelle en 5 secondes
 
 **Contenu Visuel :**
-- **Background :** Image hero AMARA (mannequin portant vêtement signature, fond atelier artisans)
+- **Background :** Image hero ADVERTIS (mannequin portant vêtement signature, fond atelier artisans)
 - **Overlay :** Gradient subtil Terracotta pour lisibilité
-- **Logo AMARA** : Centré en haut, taille généreuse (80px height)
+- **Logo ADVERTIS** : Centré en haut, taille généreuse (80px height)
 - **Tagline :** "Wear Your Story" - Playfair Display Italic, 24px, couleur Cream
 
 **Métriques Clés (Hero Cards) :**
@@ -320,7 +320,7 @@ Disposition : 4 cards horizontales, glassmorphism effect
 ```
 
 **CTA Principal :**
-- Button : "Explorer la Stratégie AMARA" → Smooth scroll vers Section S
+- Button : "Explorer la Stratégie ADVERTIS" → Smooth scroll vers Section S
 - Style : Terracotta background, Cream text, rounded, hover lift effect
 - Icon : Down arrow animée (bounce subtil)
 
@@ -331,7 +331,7 @@ Disposition : 4 cards horizontales, glassmorphism effect
 ### SECTION 1 : STRATEGY BIBLE (S) - "L'Histoire Complète"
 
 **Intro Narrative :**
-> "AMARA n'est pas qu'une marque de mode. C'est un mouvement qui reconnecte les femmes africaines à leur héritage artisanal tout en embrassant la modernité durable. Cette Strategy Bible synthétise 6 mois de recherche, 40+ variables stratégiques, et la vision d'une marque qui peut transformer l'industrie de la mode en Afrique de l'Ouest."
+> "ADVERTIS n'est pas qu'une marque de mode. C'est un mouvement qui reconnecte les femmes africaines à leur héritage artisanal tout en embrassant la modernité durable. Cette Strategy Bible synthétise 6 mois de recherche, 40+ variables stratégiques, et la vision d'une marque qui peut transformer l'industrie de la mode en Afrique de l'Ouest."
 
 **Sous-sections (Cards Layout) :**
 
@@ -366,7 +366,7 @@ Disposition : 4 cards horizontales, glassmorphism effect
 ### SECTION 2 : AUTHENTICITÉ (A) - "L'Âme de la Marque"
 
 **Intro :**
-> "Qu'est-ce qui rend AMARA authentique ? Ce n'est pas une question de marketing - c'est l'ADN même de la marque, ancré dans les valeurs Schwartz et le Hero's Journey de sa fondatrice."
+> "Qu'est-ce qui rend ADVERTIS authentique ? Ce n'est pas une question de marketing - c'est l'ADN même de la marque, ancré dans les valeurs Schwartz et le Hero's Journey de sa fondatrice."
 
 **Layout : 3-Column Grid (Desktop), Stack (Mobile)**
 
@@ -399,7 +399,7 @@ Disposition : 4 cards horizontales, glassmorphism effect
 
 **Hero's Journey Visualization :**
 - Timeline narrative horizontale
-- 12 étapes du Hero's Journey appliquées à la fondatrice AMARA
+- 12 étapes du Hero's Journey appliquées à la fondatrice ADVERTIS
 - Style : Illustrated journey avec points clés
 - Exemple : "Call to Adventure → Découverte du gaspillage textile en Afrique"
 
@@ -408,7 +408,7 @@ Disposition : 4 cards horizontales, glassmorphism effect
 ### SECTION 3 : DISTINCTION (D) - "L'Identité Visuelle"
 
 **Intro :**
-> "AMARA se distingue visuellement par une identité qui marie modernité géométrique et patterns artisanaux africains. Chaque élément visuel raconte l'histoire de l'artisanat qui donne vie aux vêtements."
+> "ADVERTIS se distingue visuellement par une identité qui marie modernité géométrique et patterns artisanaux africains. Chaque élément visuel raconte l'histoire de l'artisanat qui donne vie aux vêtements."
 
 **Logo System (Interactive Showcase)**
 - Logo principal : Display large avec variations
@@ -447,14 +447,14 @@ Disposition : 4 cards horizontales, glassmorphism effect
 ### SECTION 4 : VALEUR (V) - "La Promesse"
 
 **Intro :**
-> "AMARA promet plus qu'un vêtement - c'est une expérience de reconnexion à l'héritage africain à travers la mode durable. Voici comment cette valeur se déploie à travers l'expérience client."
+> "ADVERTIS promet plus qu'un vêtement - c'est une expérience de reconnexion à l'héritage africain à travers la mode durable. Voici comment cette valeur se déploie à travers l'expérience client."
 
 **Positioning Statement (Featured Card)**
 - Large card centré, background gradient
 - Template rempli :
   - Pour [target audience]
   - Qui [need/pain point]
-  - AMARA est [category]
+  - ADVERTIS est [category]
   - Qui [unique benefit]
   - Contrairement à [competitors]
   - Nous [key differentiator]
@@ -495,7 +495,7 @@ Chaque card contient :
 ### SECTION 5 : ENGAGEMENT (E) - "Les Campagnes" [SECTION MAJEURE]
 
 **Intro :**
-> "3 campagnes orchestrées sur 36 mois pour transformer AMARA d'une marque émergente en leader de la mode africaine durable. Chaque campagne = 13 composants stratégiques synchronisés."
+> "3 campagnes orchestrées sur 36 mois pour transformer ADVERTIS d'une marque émergente en leader de la mode africaine durable. Chaque campagne = 13 composants stratégiques synchronisés."
 
 **Visual : Campaign Overview Grid**
 
@@ -598,7 +598,7 @@ Cliquer sur une campagne → Expansion fullwidth avec 13 composants :
 ### SECTION 6 : RISK (R) - "Les Garde-fous"
 
 **Intro :**
-> "Toute stratégie ambitieuse comporte des risques. AMARA a identifié 8 risques majeurs avec plans de mitigation détaillés et scénarios de contingence."
+> "Toute stratégie ambitieuse comporte des risques. ADVERTIS a identifié 8 risques majeurs avec plans de mitigation détaillés et scénarios de contingence."
 
 **Risk Matrix (2x2 Grid Visual)**
 - Axes : Probability (X) × Impact (Y)
@@ -645,7 +645,7 @@ Pour chaque scénario :
 ### SECTION 7 : TRACK (T) - "La Mesure du Succès"
 
 **Intro :**
-> "Ce qui ne se mesure pas ne s'améliore pas. AMARA track 40+ métriques organisées autour d'un North Star : le nombre de Superfans."
+> "Ce qui ne se mesure pas ne s'améliore pas. ADVERTIS track 40+ métriques organisées autour d'un North Star : le nombre de Superfans."
 
 **North Star Metric (Hero Card)**
 - Large centered card
@@ -713,7 +713,7 @@ Pour chaque scénario :
 ### SECTION 8 : IMPLEMENTATION (I) - "La Roadmap 36 Mois"
 
 **Intro :**
-> "De l'idée à l'exécution : voici comment AMARA déploie sa stratégie sur 36 mois à travers 4 phases distinctes, 7 milestones majeurs, et un investissement total de $8.75M."
+> "De l'idée à l'exécution : voici comment ADVERTIS déploie sa stratégie sur 36 mois à travers 4 phases distinctes, 7 milestones majeurs, et un investissement total de $8.75M."
 
 **Visual : Interactive Roadmap Timeline**
 
@@ -792,7 +792,7 @@ Hover milestone → Tooltip avec :
 ### SECTION 9 : CALL-TO-ACTION FINAL
 
 **Hero Statement :**
-> "Cette stratégie n'est pas un document - c'est le plan pour transformer AMARA en icône de la mode africaine durable. Prêts à construire quelque chose d'exceptionnel ?"
+> "Cette stratégie n'est pas un document - c'est le plan pour transformer ADVERTIS en icône de la mode africaine durable. Prêts à construire quelque chose d'exceptionnel ?"
 
 **3 CTA Cards (Horizontal Layout)**
 
@@ -849,7 +849,7 @@ Hover milestone → Tooltip avec :
 **Position :** Fixed left, 280px width, fullheight
 
 **Contenu :**
-- Logo AMARA (top, 48px height)
+- Logo ADVERTIS (top, 48px height)
 - Progress indicator : Circular progress bar (% scrolled)
 - Nav items : 8 piliers (S, A, D, V, E, R, T, I)
   - Icon + Label
@@ -869,12 +869,12 @@ Hover milestone → Tooltip avec :
 ### Hero Section Components
 
 **1. Background Image avec Parallax**
-- Image hero AMARA (haute résolution)
+- Image hero ADVERTIS (haute résolution)
 - Parallax scroll effect : Image scroll plus lent que foreground
 - Overlay gradient : rgba(200, 101, 74, 0.3)
 
 **2. Logo Centered**
-- SVG logo AMARA
+- SVG logo ADVERTIS
 - Animation d'entrée : Fade + scale (0.8 → 1)
 - Hover : Subtle pulse
 
@@ -898,7 +898,7 @@ Hover milestone → Tooltip avec :
 - Animation : Stagger fade-in (100ms delay entre chaque)
 
 **5. CTA Button**
-- Text : "Explorer la Stratégie AMARA"
+- Text : "Explorer la Stratégie ADVERTIS"
 - Size : Large (padding 16px 48px)
 - Background : Terracotta `#C8654A`
 - Color : Cream
@@ -986,7 +986,7 @@ Hover : Image scale 1.05 (overflow hidden)
 
 **1. Bar Chart**
 - Library : Chart.js ou D3.js
-- Style : Custom colors (AMARA palette)
+- Style : Custom colors (ADVERTIS palette)
 - Interactions : Hover tooltip, click drill-down (optionnel)
 - Responsive : Collapse à mobile (horizontal → vertical)
 - Accessibility : Alt text, ARIA labels, keyboard navigation
@@ -1177,7 +1177,7 @@ Amina ajoute notes pendant préparation présentation client
 
 **Styling :**
 - **Tailwind CSS v4** (utility-first)
-  - Custom config AMARA palette
+  - Custom config ADVERTIS palette
   - Responsive utilities
   - Dark mode support (optional)
 - **Framer Motion** (animations)
@@ -1255,11 +1255,11 @@ Amina ajoute notes pendant préparation présentation client
 │   │       ├── HeatMap.tsx
 │   │       └── TreeDiagram.tsx
 │   ├── /lib
-│   │   ├── data.ts (données AMARA structurées)
+│   │   ├── data.ts (données ADVERTIS structurées)
 │   │   └── utils.ts (helper functions)
 │   └── /styles
 │       └── animations.css (custom animations)
-├── tailwind.config.ts (AMARA palette custom)
+├── tailwind.config.ts (ADVERTIS palette custom)
 ├── next.config.js
 ├── package.json
 └── tsconfig.json
@@ -1276,7 +1276,7 @@ Amina ajoute notes pendant préparation présentation client
 ```typescript
 export const amaraStrategy = {
   brand: {
-    name: "AMARA",
+    name: "ADVERTIS",
     tagline: "Wear Your Story",
     logo: "/images/logo-amara.svg",
     heroImage: "/images/hero-amara.jpg",
@@ -1296,7 +1296,7 @@ export const amaraStrategy = {
       title: "Strategy Bible",
       subtitle: "L'Histoire Complète",
       icon: "📖",
-      intro: "AMARA n'est pas qu'une marque...",
+      intro: "ADVERTIS n'est pas qu'une marque...",
       content: {
         executiveSummary: { /* ... */ },
         strategicContext: { /* ... */ },
@@ -1309,7 +1309,7 @@ export const amaraStrategy = {
       title: "Authenticité",
       subtitle: "L'Âme de la Marque",
       icon: "🎭",
-      intro: "Qu'est-ce qui rend AMARA...",
+      intro: "Qu'est-ce qui rend ADVERTIS...",
       content: {
         purpose: "Préserver l'artisanat africain...",
         mission: "Connecter 10,000 artisans...",
@@ -1412,7 +1412,7 @@ export const amaraStrategy = {
 
 - Texte sur background : Minimum 4.5:1 (AA), Préféré 7:1 (AAA)
 - UI components : Minimum 3:1
-- Vérification : Tous les combos de couleurs AMARA testés
+- Vérification : Tous les combos de couleurs ADVERTIS testés
 
 **Exemples validés :**
 - Charcoal `#2C2420` sur Cream `#F8F5F1` : 12.3:1 ✅✅
@@ -1663,7 +1663,7 @@ Réutiliser cette interface pour d'autres marques :
 
 **Exemple :**
 ```
-/amara-strategy → AMARA Sustainable Fashion
+/amara-strategy → ADVERTIS Sustainable Fashion
 /zenith-strategy → ZENITH Fintech
 /baobab-strategy → BAOBAB FMCG
 ```
@@ -1689,7 +1689,7 @@ Gérer évolutions stratégie :
 - Expiration lien : Configurable (7j/30j/90j/Never)
 
 **Watermark :**
-- Text overlay subtil : "Confidential - AMARA Strategy 2026"
+- Text overlay subtil : "Confidential - ADVERTIS Strategy 2026"
 - Position : Bottom right, opacity 0.3
 - Empêche screenshots complets (mais pas bloquant)
 
@@ -1742,7 +1742,7 @@ Gérer évolutions stratégie :
 - [ ] Touch interactions (mobile/tablet)
 
 ### Content ✅
-- [ ] Données AMARA complètes et validées
+- [ ] Données ADVERTIS complètes et validées
 - [ ] Tous textes relus (0 typos)
 - [ ] Images haute résolution
 - [ ] Métriques réalistes (pas lorem ipsum)
@@ -1759,12 +1759,12 @@ Gérer évolutions stratégie :
 
 ## 🎊 Conclusion
 
-Cette spécification UX définit une **interface web publique moderne et créative** qui transforme les 8 documents stratégiques ADVERT en une **expérience narrative immersive** pour AMARA.
+Cette spécification UX définit une **interface web publique moderne et créative** qui transforme les 8 documents stratégiques ADVERT en une **expérience narrative immersive** pour ADVERTIS.
 
 **Résumé Executif :**
 - **Vision** : La stratégie comme histoire visuelle à vivre (pas document à lire)
 - **Audiences** : Client (Nadia - Brand Director) + Agence (Amina - Strategy Director)
-- **Style** : Moderne, créatif, palette AMARA (Terracotta, Charcoal, Cream, Gold)
+- **Style** : Moderne, créatif, palette ADVERTIS (Terracotta, Charcoal, Cream, Gold)
 - **Structure** : Hero + 8 sections (S, A, D, V, E, R, T, I) + CTA final
 - **Interactions** : Navigation fluide, mode présentation, export PDF, partage
 - **Performance** : <3s load, Lighthouse >90, accessible WCAG AA

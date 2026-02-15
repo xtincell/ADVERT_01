@@ -1,6 +1,6 @@
 # Annexe B : Templates par Pilier — Worksheets et Canevas
 
-*Guide Consultant Terrain — La Méthode ADVERT*
+*Guide Consultant Terrain — La Méthode ADVERTIS v2.0*
 *© 2026 Alexandre DJENGUE — UPgraders — Tous droits réservés*
 
 ---
@@ -321,6 +321,80 @@ Complétez la phrase :
 | [____________] | ☐ Bouge ☐ Stagne ☐ Émerge | [____________] | [____________] |
 | [____________] | ☐ Bouge ☐ Stagne ☐ Émerge | [____________] | [____________] |
 | [____________] | ☐ Bouge ☐ Stagne ☐ Émerge | [____________] | [____________] |
+
+---
+
+## Template 7 — Pilier I : Implémentation
+
+### Roadmap Stratégique Exécutive
+
+*Synthèse visuelle : ce qui se passe quand, avec quel impact.*
+
+| Phase | Horizon | Objectif majeur | Responsable | Budget estimé | Critère de succès |
+|---|---|---|---|---|---|
+| **Phase 1 — Quick Wins** | 0-4 semaines | Générer de l'élan et de la confiance | [__________] | [________] | [_____________________] |
+| **Phase 2 — Fondations** | 1-3 mois | Structurer les piliers critiques | [__________] | [________] | [_____________________] |
+| **Phase 3 — Déploiement** | 3-12 mois | Lancer à grande échelle | [__________] | [________] | [_____________________] |
+| **Phase 4 — Optimisation** | 12-36 mois | Stabiliser et améliorer | [__________] | [________] | [_____________________] |
+
+### Quick Wins — Action rapide
+
+*Réalisables en < 2 semaines. Pas de budget majeur. Impact psychologique immédiat.*
+
+| # | Action | Pilier source | Responsable | Échéance | Résultat attendu |
+|---|---|---|---|---|---|
+| 1 | [_________________________] | [___] | [__________] | [________] | [_____________________] |
+| 2 | [_________________________] | [___] | [__________] | [________] | [_____________________] |
+| 3 | [_________________________] | [___] | [__________] | [________] | [_____________________] |
+| 4 | [_________________________] | [___] | [__________] | [________] | [_____________________] |
+| 5 | [_________________________] | [___] | [__________] | [________] | [_____________________] |
+
+### Budget et Ressources
+
+| Dimension | Horizon 12 mois | Horizon 36 mois | Notes |
+|---|---|---|---|
+| **Budget total** | [______________] | [______________] | [_________________________________] |
+| **Budget Phase 1** | [______________] | N/A | Quick wins + démarrage |
+| **Interne (salaires/équipe)** | [______________] | [______________] | Augmentation progressive |
+| **Externe (agences/freelance)** | [______________] | [______________] | Design, stratégie, tech, contenu |
+| **Outils / SaaS / Technologie** | [______________] | [______________] | CRM, Analytics, Email, Social, etc. |
+
+### Structure d'Équipe
+
+| Rôle | Responsable | Seniority | Full-time ou Part-time | Compétences clés |
+|---|---|---|---|---|
+| **Brand Owner / Champion** | [__________] | Senior | [_________] | Vision, alignement, décision |
+| **Strategy Executor / PM** | [__________] | Mid | [_________] | Gestion projet, priorités |
+| **Data Steward / Analytics** | [__________] | Mid | [_________] | Mesure, validation, reporting |
+| **Community / Engagement Lead** | [__________] | Mid | [_________] | Communauté, rituels, touchpoints |
+| **Content Creator** | [__________] | Mid | [_________] | Rédaction, ton de voix |
+
+### Partenaires Externes Requis
+
+| Besoin | Type de partenaire | Scope | Budget estimé | Fournisseur identifié |
+|---|---|---|---|---|
+| Design / Identité Visuelle | Agence créative ou freelancer design | Logo, charte, templates | [________] | [__________] |
+| Stratégie Numérique | Agence digitale ou stratège | SEO/SEM, social, content | [________] | [__________] |
+| Développement Tech | Tech partner / freelancer dev | Site web, app, dashboard | [________] | [__________] |
+| Production Contenu | Studio ou freelancers | Vidéo, photos, graphisme | [________] | [__________] |
+| Relations Presse / PR | Agence RP ou freelancer | Media outreach, relations | [________] | [__________] |
+
+### Indicateurs de Succès (KPIs Implémentation)
+
+| Variable | Métrique | Baseline | Cible 6 mois | Cible 12 mois | Fréquence suivi |
+|---|---|---|---|---|---|
+| **Adhésion équipe** | % qui comprend la stratégie | [____]% | [____]% | [____]% | Mensuel |
+| **Exécution Quick Wins** | # livrés à temps | [____]/5 | [____]/5 | ✓ | Immédiat |
+| **Conformité Budget** | % des dépenses vs. plan | [____]% | [____]% | [____]% | Mensuel |
+| **Santé projet** | Score RACI et dépendances | [_____] | [_____] | [_____] | Hebdo |
+
+### Risques d'Implémentation
+
+| Risque | Probabilité | Impact | Mitigation |
+|---|---|---|---|
+| [___________________] | ☐H ☐M ☐B | ☐H ☐M ☐B | [_____________________] |
+| [___________________] | ☐H ☐M ☐B | ☐H ☐M ☐B | [_____________________] |
+| [___________________] | ☐H ☐M ☐B | ☐H ☐M ☐B | [_____________________] |
 
 ---
 

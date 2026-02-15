@@ -8,14 +8,14 @@
 
 ## 📋 Résumé Exécutif
 
-La méthode stratégique de marque a évolué de **ADVERT (6 piliers)** vers **ADVERTIS (8 piliers)**, reflétant une maturation de l'approche et une clarification des livrables finaux.
+La méthode stratégique de marque a évolué de **ADVERT (8 piliers)** vers **ADVERTIS (8 piliers)**, reflétant une maturation de l'approche et une clarification des livrables finaux.
 
 ### Changements Majeurs
 
 | Aspect | ADVERT v1.0 | ADVERTIS v2.0 |
 |--------|-------------|---------------|
 | **Nom** | ADVERT | **ADVERTIS** |
-| **Piliers** | 6 piliers (A-D-V-E-R-T) | **8 piliers (A-D-V-E-R-T-I-S)** |
+| **Piliers** | 8 piliers (A-D-V-E-R-T) | **8 piliers (A-D-V-E-R-T-I-S)** |
 | **Livrable final** | Document S (synthèse) | **Pilier S = Document + Interface Web Cockpit** |
 | **Data compilation** | Implicite dans chaque pilier | **Pilier I explicite (Innovation/Implementation)** |
 | **Architecture** | Méthode → Documents | **Méthode → Piliers → Livrables duaux** |
@@ -52,7 +52,7 @@ S - Strategy (Document + Interface)
 
 **I = Compilation Lourde de Toutes les Données**
 
-Le Pilier I agrège, synthétise et compile l'ensemble des données collectées à travers les 6 piliers précédents (A-D-V-E-R-T) pour créer un corpus d'implémentation actionnable.
+Le Pilier I agrège, synthétise et compile l'ensemble des données collectées à travers les 8 piliers précédents (A-D-V-E-R-T) pour créer un corpus d'implémentation actionnable.
 
 ### Contenu du Pilier I
 
@@ -209,7 +209,7 @@ _bmad-output/strategic-interface-amara/
 | Dimension | ADVERT v1.0 | ADVERTIS v2.0 |
 |-----------|-------------|---------------|
 | **Piliers Méthodologie** | 6 (A-D-V-E-R-T) | 8 (A-D-V-E-R-T-I-S) |
-| **Documents Livrables** | 7 (S + 6 piliers) | 8 documents + 1 interface |
+| **Documents Livrables** | 7 (S + 8 piliers) | 8 documents + 1 interface |
 | **Pilier I** | Absent (implicite) | **Explicite : Innovation/Implementation** |
 | **Pilier S** | Document uniquement | **Document + Interface Web** |
 | **Data Compilation** | Éparpillée | **Centralisée dans I** |
@@ -283,7 +283,7 @@ _bmad-output/strategic-interface-amara/
 ### Termes Obsolètes
 
 ❌ **ADVERT** (v1.0 dépréciée)
-❌ **6 piliers** (incomplet)
+❌ **8 piliers** (incomplet)
 ❌ **Interface AMARA** (AMARA est une brand, pas le nom du système)
 ❌ **Document S uniquement** (S = document + interface)
 

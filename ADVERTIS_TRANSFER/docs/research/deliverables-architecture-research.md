@@ -1,6 +1,6 @@
 # RECHERCHE APPROFONDIE : ARCHITECTURE DES LIVRABLES STRATÉGIQUES DE MARQUE
 
-**Contexte ADVERT** : Méthodologie en 6 piliers (A-D-V-E-R-T) visant à démocratiser le travail d'agence à $500k pour $15k via IA + méthodologie
+**Contexte ADVERT** : Méthodologie en 8 piliers (A-D-V-E-R-T) visant à démocratiser le travail d'agence à $500k pour $15k via IA + méthodologie
 
 **Date** : 2026-02-10
 
@@ -832,7 +832,7 @@
 
 **FRAMEWORK ADVERT (Propriétaire)** :
 
-- Architecture des 6 piliers (A-D-V-E-R-T)
+- Architecture des 8 piliers (A-D-V-E-R-T)
 - Variables de chaque pilier
 - Super modules de traitement
 - Kernels de raffinement
@@ -2034,7 +2034,7 @@ ADVERT_Brand_Strategy_Package_[ClientName]_2026/
 **DÉFINIR CLAIREMENT** :
 
 **FRAMEWORK ADVERT (Propriétaire, Non-Livré)** :
-- Méthodologie 6 piliers A-D-V-E-R-T
+- Méthodologie 8 piliers A-D-V-E-R-T
 - Variables de chaque pilier
 - Super modules (traitement variables)
 - Kernels (raffinement outputs)

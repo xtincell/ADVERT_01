@@ -1,6 +1,6 @@
 # Annexe F : Checklists Réglementaires par Marché Africain Majeur
 
-*Guide Consultant Terrain — La Méthode ADVERT*
+*Guide Consultant Terrain — La Méthode ADVERTIS v2.0*
 *© 2026 Alexandre DJENGUE — UPgraders — Tous droits réservés*
 
 ---

@@ -1,15 +1,15 @@
-# Annexe A : Liste Complète des Variables ADVERT
+# Annexe A : Liste Complète des Variables ADVERTIS v2.0
 
-*Guide Consultant Terrain — La Méthode ADVERT*
+*Guide Consultant Terrain — La Méthode ADVERTIS v2.0*
 *© 2026 Alexandre DJENGUE — UPgraders — Tous droits réservés*
 
 ---
 
 ## Mode d'emploi
 
-Ce document est votre **référence rapide**. Il liste TOUTES les variables de la méthode ADVERT avec leur pilier d'appartenance, leur définition, les instructions de remplissage, et l'output attendu.
+Ce document est votre **référence rapide**. Il liste TOUTES les variables de la méthode ADVERTIS v2.0 avec leur pilier d'appartenance, leur définition, les instructions de remplissage, et l'output attendu.
 
-**Variables prioritaires (★) :** Chaque pilier a 2-3 variables marquées ★. Ce sont celles à traiter en **première passe** — elles portent l'essentiel du pilier. Les autres s'ajoutent en deuxième passe ou via le SaaS. Sur papier, si le temps manque, les ★ suffisent.
+**Variables prioritaires (★) :** Chaque pilier a 2-4 variables marquées ★. Ce sont celles à traiter en **première passe** — elles portent l'essentiel du pilier. Les autres s'ajoutent en deuxième passe ou via le SaaS. Sur papier, si le temps manque, les ★ suffisent.
 
 Utilisez-le pour :
 - Vérifier que vous n'avez oublié aucune variable
@@ -94,7 +94,25 @@ Utilisez-le pour :
 
 ---
 
-## Pilier S — Strategy (Le Livrable)
+## Pilier I — Implémentation (Roadmap Exécution)
+
+| # | Variable | Définition | Comment la remplir | Output attendu |
+|---|---|---|---|---|
+| I1 ★ | **Roadmap Stratégique** | Jalons clés codéfinis avec le client — horizon 12-36 mois | Entretien : « Qu'est-ce qui doit se passer pour que la stratégie soit un succès ? » | Timeline avec phases, dependencies, critères de réussite |
+| I2 | **Phases de Lancement** | Décomposition en sprints : Phase 1 (Quick Wins), Phase 2 (Fondations), Phase 3 (Déploiement complet) | Prioriser les actions de la Synthèse S par effort/impact | 3-4 phases avec livrables à chaque étape |
+| I3 | **Durée Phase 1** | Définition du horizon de phase immédiate (2-4 semaines típico pour quick wins) | Basé sur l'urgence et la capacité d'exécution du client | Nombre de semaines + jalons Phase 1 |
+| I4 ★ | **Quick Wins** | 3-5 actions réalisables immédiatement (< 2 semaines) sans budget majeur | Identifier dans S les recommandations faciles + impact psychologique | Liste actionnelle avec responsables |
+| I5 | **Budget Total** | Enveloppe globale pour l'implémentation complète (12-36 mois) | Consolidation des budgets des phases V, E, D, I | Chiffre validé par le client |
+| I6 | **Budget Phase 1** | Allocation pour les 2-4 premières semaines | Quick Wins + démarrage des fondations | Sous-allocation du budget total |
+| I7 | **ROI Cible** | Objectif de retour sur investissement — ce qu'on mesure pour démontrer le succès | « Si on investit X, on expect Y en valeur ajoutée (revenue, brand lift, cost savings) » | Ratio ROI cible % ou multiples |
+| I8 | **Payback Period** | Horizon pour retrouver l'investissement initial | Calcul financier basé sur unit economics (V6) et progression de ventes prévues | Nombre de mois |
+| I9 ★ | **Structure d'Équipe** | Rôles et responsabilités pour exécuter la stratégie | « Qui fera quoi ? Interne vs. externe ? » | Org chart avec rôles : Brand Owner, Executor, Data Steward |
+| I10 | **Clés Roles** | Profils clés requis (ex: Brand Manager, Content Strategist, Community Manager) | Évaluer l'équipe existante vs. besoins | Liste des 3-5 rôles critiques avec compétences |
+| I11 | **Partenaires Externes** | Agences, consultants, freelancers nécessaires | « Qu'est-ce qu'on ne peut pas faire en interne ? » | Sélection et mandats (design, marketing, tech) |
+
+---
+
+## Pilier S — Strategy (Le Livrable) — Dual Format
 
 | # | Variable | Définition | Comment la remplir | Output attendu |
 |---|---|---|---|---|
@@ -102,10 +120,26 @@ Utilisez-le pour :
 | S2 | **Recommandations par Pilier** | Actions recommandées par pilier | Une recommandation par variable critique | Liste de recommandations structurées |
 | S3 | **Calendrier Stratégique** | Court terme (0-6 mois), moyen terme (6-18 mois), long terme (18-36 mois) | Prioriser les actions par horizon temporel | Calendrier d'exécution |
 | S4 | **Briefs Créatifs** | Briefs production-ready pour agences | Chaque brief tracé vers le pilier et la variable qui le justifie | Briefs identité visuelle, campagne, contenu |
+| S5 ★ | **Document S (Stratégie 360°)** | Livrable textuel complet — tous les piliers en détail, 50-80 pages | Compilation de A→T + recommandations I | Document PDF/Word consultable, archivable |
+| S6 ★ | **Interface S (Tableau de Bord Dynamique)** | Version numérique interactive — dashboard ADVERT avec synthèse, KPIs, alertes | Exportation des données de toute l'analyse vers le SaaS | Dashboard vivant, mise à jour périodique possible |
 
 ---
 
-**Total : 33 variables principales réparties sur 7 piliers — dont 14 prioritaires (★)**
+**Total : 47 variables principales réparties sur 9 piliers — dont 18 prioritaires (★)**
+
+**Résumé des variables ★ par pilier :**
+
+| Pilier | Variables ★ | Logique de priorité |
+|---|---|---|
+| **A** | A1, A3, A4 | Le noyau identitaire — sans ça, le reste est décoratif |
+| **D** | D1, D3, D4 | La triade qui fait qu'une marque existe dans l'esprit du client |
+| **V** | V1, V3, V6 | L'offre, ce que le client en retire, et si c'est viable |
+| **E** | E1, E2, E5 | Les contacts, les habitudes, le funnel — la mécanique d'engagement |
+| **T** | T1, T4 | Les données croisées et la taille du marché |
+| **I** | I1, I4, I9 | La feuille de route, les quick wins, et qui exécute |
+| **S** | S5, S6 | Le double format de livrable — document + dashboard |
+
+*En première passe papier, les 18 variables ★ couvrent l'essentiel de la stratégie. Les 29 autres s'ajoutent en deuxième passe ou via le SaaS.*
 
 **Résumé des variables ★ par pilier :**
 

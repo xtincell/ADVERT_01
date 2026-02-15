@@ -90,7 +90,7 @@ La méthode ADVERT — Authenticité, Distinction, Valeur, Engagement, Risk, Tra
 
 **Périmètre Confirmé :**
 
-- **ADVERT comme sujet unique** — la méthodologie à 6 piliers est présentée comme un framework unifié et antifragile
+- **ADVERT comme sujet unique** — la méthodologie à 8 piliers est présentée comme un framework unifié et antifragile
 - **Logique interne d'ADVERT** — cascade séquentielle A→D→V→E→R→T, dépendances, variables, livrables par pilier
 - **Mécaniques par pilier** — variables, questions clés, outputs attendus — en langage ADVERT, pas en jargon académique
 - **Études de cas réelles** — marques cultes (Apple, Nike, Patagonia, etc.) utilisées comme preuves des principes ADVERT, pas comme théorie
@@ -329,10 +329,10 @@ Sources :
 L'architecture complète d'ADVERT est **A→D→V→E→R→T→S**. Le 7e pilier — **S pour Strategy** — est le pilier « caché » car ce n'est pas une phase de construction comme les six autres. C'est la **moisson** — le livrable ultime qui émerge de la cascade complétée.
 
 **Ce qu'est S :**
-S est le document de stratégie 360° — court, moyen et long terme — qui synthétise TOUTES les données produites par les 6 piliers en un plan actionnable. C'est ce que le client paie. C'est ce qu'on remet aux agences de production. C'est ce qui alimente chaque brief créatif.
+S est le document de stratégie 360° — court, moyen et long terme — qui synthétise TOUTES les données produites par les 8 piliers en un plan actionnable. C'est ce que le client paie. C'est ce qu'on remet aux agences de production. C'est ce qui alimente chaque brief créatif.
 
 **Ce que S contient :**
-- **Recommandations Stratégiques** synthétisées depuis les 6 piliers
+- **Recommandations Stratégiques** synthétisées depuis les 8 piliers
 - **Stratégie de Campagne & Calendrier** — court terme (3 mois), moyen terme (6 mois), long terme (12 mois)
 - **Stratégie de Canaux** — dérivée des touchpoints du pilier Engagement (physique, digital, humain)
 - **Stratégie de Contenu & Messaging** — dérivée du pilier Distinction (ton, assets linguistiques, promesses)
@@ -344,7 +344,7 @@ S est le document de stratégie 360° — court, moyen et long terme — qui syn
 - **Briefs Créatifs** — briefs production-ready pour agences, chacun traçable vers des outputs de pilier spécifiques
 
 **Pourquoi S est « Caché » :**
-Les 6 piliers visibles (ADVERT) font TOUT le travail analytique. S n'est pas une analyse indépendante — c'est la cristallisation naturelle des six piliers en un document unique et actionnable. Un consultant qui complète A à T correctement trouvera que S s'écrit pratiquement tout seul. La stratégie n'est pas inventée à la fin — elle est révélée par le processus.
+Les 8 piliers visibles (ADVERT) font TOUT le travail analytique. S n'est pas une analyse indépendante — c'est la cristallisation naturelle des huit piliers en un document unique et actionnable. Un consultant qui complète A à T correctement trouvera que S s'écrit pratiquement tout seul. La stratégie n'est pas inventée à la fin — elle est révélée par le processus.
 
 **Pourquoi C'est Important pour le Positionnement Concurrentiel :**
 
@@ -385,7 +385,7 @@ Une méthodologie de conseil propriétaire comme ADVERT nécessite une stratégi
 
 **Protection par le Droit d'Auteur :** L'expression spécifique de la méthodologie — le document guide, les templates, les cahiers de terrain, les exercices, les frameworks visuels — est automatiquement protégeable par le droit d'auteur. [Confiance Élevée]
 
-**Protection par la Marque Déposée :** Le nom « ADVERT » et la structure à 6 piliers (A-D-V-E-R-T) peuvent être déposés comme marque. L'enregistrement fournit l'exclusivité sur le nom dans le contexte conseil/méthodologie.
+**Protection par la Marque Déposée :** Le nom « ADVERT » et la structure à 8 piliers (A-D-V-E-R-T) peuvent être déposés comme marque. L'enregistrement fournit l'exclusivité sur le nom dans le contexte conseil/méthodologie.
 
 **Modèle de Distribution : « Méthodologie d'Abord, Outil Ensuite » (Le Pattern EOS)**
 
@@ -393,9 +393,9 @@ Le modèle de distribution éprouvé pour ADVERT est le pattern pionnier de **EO
 
 | Phase | EOS (Modèle Éprouvé) | ADVERT (Application) |
 |---|---|---|
-| **1. Le Livre** | *Traction* enseigne les 6 composantes EOS — 100% autonome, pas de logiciel nécessaire | Le Guide ADVERT enseigne les 6 piliers A→D→V→E→R→T — 100% autonome |
+| **1. Le Livre** | *Traction* enseigne les 6 composantes EOS — 100% autonome, pas de logiciel nécessaire | Le Guide ADVERT enseigne les 8 piliers A→D→V→E→R→T — 100% autonome |
 | **2. Outils Manuels** | Worksheets PDF gratuits, tableurs, V/TO sur papier. Les EOS Implementers travaillent avec ces outils en session client | Cahier de terrain en annexe, templates Notion/Excel, guides de remplissage. Les consultants ADVERT travaillent avec ces outils chez le client |
-| **3. La Douleur** | Gérer Rocks, Scorecards, réunions L10 dans des tableurs éparpillés. Ça marche, mais c'est douloureux à l'échelle | Gérer 6 piliers, 40+ variables interdépendantes, SWOTs en cascade dans Notion/Excel. Ça marche, mais c'est un cauchemar opérationnel au volume quotidien |
+| **3. La Douleur** | Gérer Rocks, Scorecards, réunions L10 dans des tableurs éparpillés. Ça marche, mais c'est douloureux à l'échelle | Gérer 8 piliers, 40+ variables interdépendantes, SWOTs en cascade dans Notion/Excel. Ça marche, mais c'est un cauchemar opérationnel au volume quotidien |
 | **4. Le SaaS** | **EOS One** — pas mentionné dans le livre original. Apparu APRÈS que des milliers d'implementers aient ressenti la douleur. Premier utilisateur gratuit | **ADVERT SaaS** — mentionné uniquement sur la dernière page du guide. Pour ceux qui font ça au quotidien et veulent arrêter de se battre avec les outils manuels |
 | **5. La Certification** | EOS Implementer : Professional → Certified → Expert. Licence payante | Consultant ADVERT : future certification basée sur le guide |
 
@@ -409,7 +409,7 @@ Sources :
 - [EOS Worldwide - Devenir Implementer](https://www.eosworldwide.com/become-an-implementer)
 
 **Stack PI Recommandé pour ADVERT :**
-1. Déposer la marque « ADVERT » et l'acronyme des 6 piliers
+1. Déposer la marque « ADVERT » et l'acronyme des 8 piliers
 2. Protéger par droit d'auteur le guide, templates, cahier de terrain
 3. Licencier la méthodologie pour les consultants certifiés
 4. Protéger l'implémentation SaaS comme secret commercial + PI logicielle
@@ -574,7 +574,7 @@ Chaque chapitre de pilier suit une structure cohérente :
 - Chapitre 8 : **T — Track** (Croisement de 3 Sources de Données, Validation, Rapport Réalité Marché, TAM/SAM/SOM)
 
 **Partie III — Le Livrable (Chapitre 9)**
-- Chapitre 9 : **S — Strategy** — Comment les 6 piliers convergent vers le document de stratégie 360°. Comment assembler le livrable. Ce que le client reçoit. Comment il alimente les agences de production et les briefs. Planification court/moyen/long terme.
+- Chapitre 9 : **S — Strategy** — Comment les 8 piliers convergent vers le document de stratégie 360°. Comment assembler le livrable. Ce que le client reçoit. Comment il alimente les agences de production et les briefs. Planification court/moyen/long terme.
 
 **Partie IV — Éthique et Pratique (Chapitre 10)**
 - Chapitre 10 : **La Matrice de Manipulation** — Framework éthique. Persuasion vs. manipulation. Outil d'auto-évaluation. Conscience réglementaire.

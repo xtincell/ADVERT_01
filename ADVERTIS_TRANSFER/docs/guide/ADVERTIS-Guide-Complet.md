@@ -1,21 +1,36 @@
 ---
-title: "La Méthode ADVERT — Guide Complet"
-subtitle: "Stratégie de Marque Antifragile à 7 Piliers — Édition Complète avec Annexes"
+title: "La Méthode ADVERTIS — Guide Complet"
+subtitle: "Stratégie de Marque Antifragile à 8 Piliers — Édition Complète avec Annexes"
 author: "Alexandre DJENGUE"
 agency: "UPgraders"
-version: "1.0"
+version: "2.0"
 date: "2026"
 language: "Français"
-copyright: "© 2026 Alexandre DJENGUE — Tous droits réservés. La Méthode ADVERT est une méthodologie propriétaire. Toute reproduction, distribution ou utilisation non autorisée est interdite."
+copyright: "© 2026 Alexandre DJENGUE — Tous droits réservés. La Méthode ADVERTIS est une méthodologie propriétaire. Toute reproduction, distribution ou utilisation non autorisée est interdite."
 ---
 
-# La Méthode ADVERT
+# La Méthode ADVERTIS
 
 ## Guide Consultant Terrain
 
-**Stratégie de Marque Antifragile à 7 Piliers**
+**Stratégie de Marque Antifragile à 8 Piliers — Version 2.0**
 
 *Par Alexandre DJENGUE — Fondateur, UPgraders*
+
+---
+
+> **ÉVOLUTION VERS ADVERTIS v2.0**
+>
+> Ce guide représente l'évolution de la méthode ADVERT vers **ADVERTIS v2.0**, qui rend explicites deux piliers qui étaient auparavant implicites :
+>
+> - **Pilier I (Innovation & Implementation)** : Roadmap stratégique, budget, et plan d'exécution
+> - **Pilier S (Stratégie)** : Dual nature — Document Strategy Bible + Interface Strategic Cockpit
+>
+> Cette évolution transforme une méthodologie de stratégie en un système complet d'**exécution stratégique**.
+>
+> Pour comprendre l'évolution complète, voir : `docs/EVOLUTION-ADVERTIS.md`
+
+---
 
 ---
 
@@ -29,21 +44,20 @@ copyright: "© 2026 Alexandre DJENGUE — Tous droits réservés. La Méthode AD
 - [Chapitre 1 : Pourquoi les Marques Échouent](#chapitre-1--pourquoi-les-marques-échouent)
 - [Chapitre 2 : La Méthode ADVERT — Vue d'Ensemble](#chapitre-2--la-méthode-advert--vue-densemble)
 
-**Partie II — Les 6 Piliers**
-- [Chapitre 3 : A — Authenticité](#chapitre-3--a--authenticité)
-- [Chapitre 4 : D — Distinction](#chapitre-4--d--distinction)
-- [Chapitre 5 : V — Valeur](#chapitre-5--v--valeur)
-- [Chapitre 6 : E — Engagement](#chapitre-6--e--engagement)
-- [Chapitre 7 : R — Risk](#chapitre-7--r--risk)
-- [Chapitre 8 : T — Track](#chapitre-8--t--track)
+**Partie II — Les 8 Piliers ADVERTIS**
+- [Chapitre 3 : S — Strategy (Document + Interface)](#chapitre-3--s--strategy--document--interface)
+- [Chapitre 4 : A — Authenticité](#chapitre-4--a--authenticité)
+- [Chapitre 5 : D — Distinction](#chapitre-5--d--distinction)
+- [Chapitre 6 : V — Valeur](#chapitre-6--v--valeur)
+- [Chapitre 7 : E — Engagement](#chapitre-7--e--engagement)
+- [Chapitre 8 : R — Risk](#chapitre-8--r--risk)
+- [Chapitre 9 : T — Track](#chapitre-9--t--track)
+- [Chapitre 10 : I — Innovation & Implementation](#chapitre-10--i--innovation--implementation)
 
-**Partie III — Le Livrable**
-- [Chapitre 9 : S — Strategy](#chapitre-9--s--strategy--le-document-de-stratégie-360)
+**Partie III — Éthique et Pratique**
+- [Chapitre 11 : La Matrice de Manipulation](#chapitre-11--la-matrice-de-manipulation--framework-éthique)
 
-**Partie IV — Éthique et Pratique**
-- [Chapitre 10 : La Matrice de Manipulation](#chapitre-10--la-matrice-de-manipulation--framework-éthique)
-
-**Partie V — La Dernière Page**
+**Partie IV — La Dernière Page**
 - [Et Maintenant ?](#et-maintenant-)
 
 **Annexes — Le Cahier de Terrain**
@@ -990,19 +1004,562 @@ Si 3/3 divergent : votre stratégie a un problème fondamental.
 
 ---
 
-# PARTIE III — LE LIVRABLE
+
+## Chapitre 10 : I — Innovation & Implementation
+
+### Le Pilier Absent : De la Stratégie à l'Action
+
+Les 7 premiers piliers (S, A, D, V, E, R, T) construisent une stratégie complète. Mais même la meilleure stratégie reste un document mort sans **exécution**.
+
+Le Pilier I transforme l'intention en action.
+
+Ce pilier répond à trois questions critiques que tout client pose (ou devrait poser) :
+1. **Comment ?** — Quelle est la roadmap concrète ?
+2. **Combien ?** — Quel est le budget requis ?
+3. **Qui ?** — Quelle équipe pour exécuter ?
+
+Sans réponses claires à ces trois questions, 70% des stratégies de marque ne seront jamais implémentées.
+
+### Pourquoi I Est Essentiel
+
+**Le problème historique :**
+La plupart des consultants en branding livrent une stratégie magnifique... et s'arrêtent là. Le client reçoit 300 pages de PDF premium, mais aucun plan d'action.
+
+Résultat : la stratégie reste dans un tiroir. Ou pire, le client tente une implémentation chaotique sans priorisation ni budget, échoue, et blâme la stratégie.
+
+**La solution ADVERTIS :**
+Le Pilier I est le pont entre stratégie et exécution. Il donne au client :
+- Une **roadmap visuelle** sur 12-24 mois
+- Un **budget détaillé** par phase avec ROI projeté
+- Un **plan d'équipe** avec rôles clés et recrutement
+- Une liste de **quick wins** pour les 90 premiers jours
+
+### Les 4 Composantes du Pilier I
+
+#### I.1 — Roadmap Stratégique (12-24 Mois)
+
+**Objectif :** Transformer la stratégie en timeline actionnable
+
+**Livrables :**
+- Phases de déploiement (typiquement 3-5 phases)
+- Dépendances critiques entre initiatives
+- Timeline Gantt visuel
+- Milestones de validation
+
+**Méthodologie :**
+
+1. **Extraction des priorités** depuis les autres piliers :
+   - Pilier A : Initiatives d'authenticité (refonte identité visuelle, storytelling)
+   - Pilier D : Initiatives de différenciation (lancement produit signature, positionnement)
+   - Pilier V : Initiatives de valeur (ajustements pricing, packaging premium)
+   - Pilier E : Initiatives d'engagement (stratégie communauté, événements)
+   - Pilier R : Initiatives de mitigation risques (compliance, IP)
+   - Pilier T : Initiatives de tracking (dashboard KPI, tools analytics)
+
+2. **Priorisation selon la matrice Effort/Impact** :
+   - **Quick Wins** (Faible effort, Fort impact) → Phase 1 (0-3 mois)
+   - **Projets stratégiques** (Fort effort, Fort impact) → Phases 2-3 (3-12 mois)
+   - **Fill-ins** (Faible effort, Faible impact) → Phase 4+ (12-24 mois)
+   - **Challenges** (Fort effort, Faible impact) → Éviter ou repenser
+
+3. **Identification des dépendances** :
+   - Techniques (ex: refonte site web avant lancement campagne digitale)
+   - Réglementaires (ex: enregistrement marque avant commercialisation)
+   - Budgétaires (ex: levée de fonds avant scaling)
+   - Ressources (ex: recrutement CMO avant stratégie go-to-market)
+
+4. **Construction de la timeline** :
+   - Diagramme Gantt visuel
+   - Phases colorées par pilier
+   - Jalons de validation (gates)
+   - Buffer contingence 20%
+
+**Template de Roadmap (exemple simplifié) :**
+
+```
+PHASE 1 (Mois 1-3) : FONDATIONS
+├─ A1: Refonte identité visuelle
+├─ V1: Ajustement pricing premium
+├─ T1: Setup dashboard KPI
+└─ I1: Quick wins (5-7 initiatives)
+
+PHASE 2 (Mois 4-6) : LANCEMENT
+├─ D1: Lancement produit signature
+├─ E1: Événement de lancement
+├─ R1: Protection IP (marque déposée)
+└─ Validation : +30% brand awareness
+
+PHASE 3 (Mois 7-12) : SCALING
+├─ E2: Programme communauté
+├─ V2: Expansion offre premium
+├─ D2: Partenariats stratégiques
+└─ Validation : 1000 superfans actifs
+
+PHASE 4 (Mois 13-24) : CONSOLIDATION
+├─ T2: Optimisation continue
+├─ A2: Evolution brand positioning
+└─ Validation : Leadership marché segment
+```
+
+**Variables clés :** `{{roadmap_horizon}}`, `{{roadmap_phases}}`, `{{phase_1_duration}}`, `{{milestones}}`
 
 ---
 
-## Chapitre 9 : S — Strategy : Le Document de Stratégie 360°
+#### I.2 — Budget & Ressources
 
-### Ce Que Le Client Reçoit
+**Objectif :** Donner une visibilité financière complète sur l'implémentation
 
-Le pilier S est le pilier « caché » — il n'apparaît pas dans l'acronyme visible A-D-V-E-R-T. Parce que S n'est pas une phase de construction. C'est la **moisson**.
+**Livrables :**
+- Budget détaillé par phase
+- Allocation par pilier
+- Analyse ROI (Return on Investment)
+- Scénarios optimiste/pessimiste/réaliste
 
-Quand un consultant complète les 6 piliers correctement, le document de stratégie S s'écrit pratiquement tout seul. La stratégie n'est pas inventée à la fin — elle est **révélée** par le processus.
+**Méthodologie :**
 
-Le client reçoit un document unique, complet, actionnable : le **Document de Stratégie de Marque 360°**.
+1. **Estimation bottom-up** :
+   - Chaque initiative de la roadmap reçoit un budget estimé
+   - Sources : benchmarks industrie, devis fournisseurs, expérience consultant
+   - Catégories : Design, Tech, Marketing, Événements, Legal, RH, Contingence
+
+2. **Agrégation par phase** :
+   - Phase 1 (Fondations) : Typiquement 20-30% du budget total
+   - Phase 2 (Lancement) : 30-40%
+   - Phase 3 (Scaling) : 25-30%
+   - Phase 4 (Consolidation) : 10-15%
+
+3. **Allocation par pilier** :
+   - Visualisation pie chart : quelle part du budget va à A, D, V, E, R, T ?
+   - Permet de valider l'équilibre stratégique
+   - Exemple type : D (25%), E (25%), V (20%), A (15%), R (10%), T (5%)
+
+4. **Analyse ROI** :
+   - **Investment** : Budget total phases 1-3 (12 mois)
+   - **Return projeté** : Revenus additionnels de l'implémentation stratégique
+   - **Payback period** : Temps pour récupérer l'investissement (target : <18 mois)
+   - **ROI cible** : Minimum 3:1 (3€ de retour pour 1€ investi)
+
+**Template Budget (exemple simplifié) :**
+
+```
+BUDGET TOTAL IMPLÉMENTATION (12 MOIS) : 150 000€
+
+PHASE 1 (Fondations) — 40 000€
+├─ Design & Branding : 15 000€
+├─ Tech (site web, tools) : 12 000€
+├─ Marketing content : 8 000€
+└─ Contingence 20% : 5 000€
+
+PHASE 2 (Lancement) — 60 000€
+├─ Événement lancement : 20 000€
+├─ Campagne digitale : 25 000€
+├─ Partenariats : 10 000€
+└─ Contingence 20% : 5 000€
+
+PHASE 3 (Scaling) — 50 000€
+├─ Communauté (plateforme, animation) : 20 000€
+├─ Expansion offre : 15 000€
+├─ Analytics & optimisation : 10 000€
+└─ Contingence 20% : 5 000€
+
+ROI PROJETÉ (24 MOIS)
+├─ Investment : 150 000€
+├─ Revenus additionnels : 600 000€
+├─ ROI : 4:1
+└─ Payback : 12 mois
+```
+
+**Variables clés :** `{{budget_total}}`, `{{budget_phase_1}}`, `{{roi_target}}`, `{{payback_period}}`
+
+---
+
+#### I.3 — Structure d'Équipe
+
+**Objectif :** Définir qui fait quoi pour exécuter la stratégie
+
+**Livrables :**
+- Organigramme cible
+- Fiches de poste clés
+- Plan de recrutement
+- Partenaires externes recommandés
+
+**Méthodologie :**
+
+1. **Audit de l'équipe actuelle** :
+   - Qui est déjà dans l'équipe ?
+   - Quelles compétences manquent ?
+   - Quelle capacité disponible (temps, budget) ?
+
+2. **Définition des rôles clés pour exécution** :
+   - **Chief Marketing Officer (CMO)** ou équivalent : ownership stratégie
+   - **Brand Manager** : exécution quotidienne initiatives branding
+   - **Content Creator** : production assets (articles, vidéos, visuels)
+   - **Community Manager** : animation communauté, réseaux sociaux
+   - **Graphiste/Designer** : identité visuelle, supports
+   - **Tech/Dev** : site web, outils digitaux
+   - **Data Analyst** : tracking KPI, reporting (Pilier T)
+
+3. **Priorisation recrutement** :
+   - **Phase 1** : Rôles critiques (ex: CMO si absent, Designer)
+   - **Phase 2** : Rôles scaling (ex: Community Manager, Content)
+   - **Phase 3** : Rôles optimisation (ex: Data Analyst, Growth)
+
+4. **Identification partenaires externes** :
+   - Agence design (si pas de compétence interne)
+   - Agence RP/Événementiel (pour lancement Phase 2)
+   - Consultant legal (protection IP, Pilier R)
+   - Plateforme tech (analytics, CRM)
+
+**Template Équipe (exemple startup/PME) :**
+
+```
+ÉQUIPE ACTUELLE (T0)
+├─ Fondateur/CEO : Vision stratégique
+├─ Co-fondateur/CTO : Tech/Produit
+└─ 1 Commercial : Ventes
+
+ÉQUIPE CIBLE (T+6 MOIS)
+├─ Fondateur/CEO : Vision stratégique
+├─ Co-fondateur/CTO : Tech/Produit
+├─ CMO (recrutement Phase 1) : Ownership stratégie marque
+├─ Brand Manager (recrutement Phase 2) : Exécution branding
+├─ Commercial : Ventes
+└─ Community Manager (freelance Phase 2) : Animation communauté
+
+PARTENAIRES EXTERNES
+├─ Agence Design XYZ : Identité visuelle (Phase 1)
+├─ Agence Événementiel ABC : Lancement (Phase 2)
+└─ Consultant Legal DEF : Protection IP (Phase 1)
+```
+
+**Variables clés :** `{{team_structure}}`, `{{key_roles}}`, `{{external_partners}}`
+
+---
+
+#### I.4 — Quick Wins (90 Premiers Jours)
+
+**Objectif :** Générer momentum immédiat et prouver la valeur de la stratégie
+
+**Livrables :**
+- Liste 5-10 quick wins
+- Timeline 90 jours
+- Responsables par initiative
+- Métriques de succès
+
+**Méthodologie :**
+
+Les quick wins sont des initiatives qui :
+1. Peuvent être exécutées en <90 jours
+2. Ont un impact visible (clients, équipe, stakeholders)
+3. Nécessitent peu de budget (<5% du budget total)
+4. Prouvent la direction stratégique
+
+**Exemples de Quick Wins Typiques :**
+
+**Pilier A (Authenticité) :**
+- Publier manifeste de marque sur le site (1 semaine)
+- Vidéo "Why We Exist" avec fondateur (2 semaines)
+- Audit identité visuelle existante (1 semaine)
+
+**Pilier D (Distinction) :**
+- Lancer feature produit unique (4-6 semaines si dev simple)
+- Créer "signature move" marketing (ex: packaging iconique)
+- Identifier 3 partenariats stratégiques différenciants
+
+**Pilier V (Valeur) :**
+- Tester nouveau pricing premium sur 10% clients (4 semaines)
+- Créer bundle "premium" offre existante (2 semaines)
+- A/B test messaging valeur (ongoing)
+
+**Pilier E (Engagement) :**
+- Lancer newsletter hebdo (1 semaine setup)
+- Organiser premier événement communauté (6-8 semaines)
+- Créer challenge/contest réseaux sociaux (2 semaines)
+
+**Pilier R (Risk) :**
+- Déposer demande marque (1 journée administrative)
+- Audit compliance basique (2 semaines)
+- Setup veille concurrence (1 semaine)
+
+**Pilier T (Track) :**
+- Setup Google Analytics/dashboard basique (3-5 jours)
+- Définir 5 KPI prioritaires à tracker (1 journée)
+- Premier rapport mensuel KPI (ongoing)
+
+**Template Quick Wins (90 jours) :**
+
+```
+MOIS 1 (Jours 1-30)
+✓ Publier manifeste marque (Pilier A)
+✓ Setup Google Analytics (Pilier T)
+✓ Déposer demande protection marque (Pilier R)
+✓ Lancer newsletter hebdo (Pilier E)
+✓ A/B test nouveau pricing (Pilier V)
+
+MOIS 2 (Jours 31-60)
+✓ Vidéo "Why We Exist" fondateur (Pilier A)
+✓ Premier événement communauté (Pilier E)
+✓ Identifier 3 partenariats cibles (Pilier D)
+✓ Premier rapport KPI mensuel (Pilier T)
+
+MOIS 3 (Jours 61-90)
+✓ Lancer bundle premium (Pilier V)
+✓ Challenge réseaux sociaux (Pilier E)
+✓ Audit compliance (Pilier R)
+✓ Validation quick wins : go/no-go Phase 2
+
+MÉTRIQUES SUCCÈS (Validation fin Mois 3)
+├─ +20% engagement newsletter
+├─ +15% taux conversion pricing premium
+├─ 50+ participants événement communauté
+├─ 3 partenariats signés ou en discussion
+└─ KPI dashboard opérationnel
+```
+
+**Variables clés :** `{{quick_wins}}`, `{{quick_wins_timeline}}`, `{{validation_criteria}}`
+
+---
+
+### Méthodologie de Construction du Pilier I
+
+**Étape 1 : Extraction (depuis piliers S, A, D, V, E, R, T)**
+
+Reprendre chaque pilier et lister toutes les recommandations stratégiques :
+- Document S : priorités stratégiques top 3-5
+- Pilier A : initiatives authenticité
+- Pilier D : initiatives différenciation
+- Pilier V : initiatives valeur/pricing
+- Pilier E : initiatives engagement
+- Pilier R : actions mitigation risques
+- Pilier T : setup tracking/analytics
+
+**Étape 2 : Priorisation (Matrice Effort/Impact)**
+
+Pour chaque initiative, évaluer :
+- **Effort** : Temps, budget, complexité (1-5)
+- **Impact** : Sur objectifs business et brand awareness (1-5)
+- **Dépendances** : Bloquants techniques, légaux, budgétaires ?
+
+Placer dans matrice :
+```
+           Fort Impact
+                |
+   Quick Wins   |  Projets Stratégiques
+                |
+─────────────────────────────── Effort
+                |
+   Fill-ins     |  Challenges
+                |
+           Faible Impact
+```
+
+**Étape 3 : Séquençage (Roadmap)**
+
+Organiser initiatives en phases logiques :
+- Phase 1 : Quick wins + fondations critiques
+- Phase 2 : Projets stratégiques majeurs
+- Phase 3 : Scaling et expansion
+- Phase 4 : Optimisation continue
+
+**Étape 4 : Budgétisation**
+
+Estimer budget par initiative, agréger par phase, calculer ROI.
+
+**Étape 5 : Staffing**
+
+Identifier qui exécute chaque initiative (équipe interne vs. externe).
+
+**Étape 6 : Documentation**
+
+Produire le **Document I** (50-80 pages) :
+- Executive Summary (2-3 pages)
+- Roadmap visuel (10-15 pages)
+- Budget détaillé (12-15 pages)
+- Structure équipe (8-10 pages)
+- Quick Wins (10-12 pages)
+- Risques & mitigation (5-8 pages)
+
+---
+
+### Livrables Finaux du Pilier I
+
+**1. Document I (PDF 50-80 pages)**
+Voir Template : `docs/specifications/08-DOCUMENT-I-TEMPLATE.md`
+
+**2. Roadmap Interactif (optionnel)**
+Timeline Gantt interactif (Excel, Notion, Monday.com, ou custom web)
+Référence : `reference/interactive-demos/document-i-roadmap-interactive.html`
+
+**3. Dashboard Budget**
+Spreadsheet avec tracking budget vs. actual (Excel ou Google Sheets)
+
+**4. Organigramme Visuel**
+Schéma équipe actuelle vs. cible (Figma, Lucidchart, ou PowerPoint)
+
+---
+
+### Variables du Pilier I
+
+Liste complète des variables spécifiques au Pilier I :
+
+**Roadmap :**
+- `{{roadmap_horizon}}` : 12/24/36 mois
+- `{{roadmap_phases}}` : Nombre de phases (typiquement 3-5)
+- `{{phase_1_duration}}` : Durée phase 1 en mois
+- `{{phase_1_initiatives}}` : Liste initiatives phase 1
+- `{{milestones}}` : Jalons de validation
+
+**Budget :**
+- `{{budget_total}}` : Budget total implémentation
+- `{{budget_phase_1}}` : Budget phase 1
+- `{{budget_contingency}}` : Réserve contingence (% typiquement 15-20%)
+- `{{roi_target}}` : ROI cible (typiquement 3:1 à 5:1)
+- `{{payback_period}}` : Période retour sur investissement (mois)
+- `{{revenue_projection}}` : Revenus additionnels projetés
+
+**Équipe :**
+- `{{team_structure}}` : Structure organisationnelle
+- `{{key_roles}}` : Rôles clés à recruter
+- `{{team_size}}` : Taille équipe totale
+- `{{external_partners}}` : Partenaires externes recommandés
+- `{{recruitment_timeline}}` : Timeline recrutement
+
+**Quick Wins :**
+- `{{quick_wins}}` : Liste 5-10 quick wins
+- `{{quick_wins_timeline}}` : Timeline 90 jours
+- `{{quick_wins_budget}}` : Budget quick wins
+- `{{validation_criteria}}` : Critères de validation succès
+
+*Voir Annexe A pour la liste complète de toutes les variables ADVERTIS (8 piliers).*
+
+---
+
+### Erreurs Fréquentes à Éviter
+
+**1. Roadmap trop ambitieuse**
+❌ Vouloir tout faire en Phase 1
+✅ Prioriser ruthlessly. Phase 1 = fondations + quick wins uniquement.
+
+**2. Budget sous-estimé**
+❌ Oublier les coûts cachés (contingence, iterations, imprévus)
+✅ Toujours ajouter 15-20% buffer contingence
+
+**3. Dépendances ignorées**
+❌ Planifier campagne digitale avant refonte site web
+✅ Mapper toutes les dépendances techniques/légales/budgétaires
+
+**4. Équipe insuffisante**
+❌ Croire que le fondateur peut tout faire
+✅ Identifier rôles critiques et prévoir recrutement/external
+
+**5. Pas de quick wins**
+❌ Attendre 6 mois avant première action visible
+✅ Lancer 3-5 quick wins dans les 30 premiers jours
+
+**6. ROI non mesuré**
+❌ Dépenser sans projeter le retour
+✅ Toujours calculer ROI attendu et payback period
+
+---
+
+### Questions d'Entretien Client (Pilier I)
+
+Pour construire le Pilier I, poser ces questions au client :
+
+**Roadmap & Timeline :**
+1. Quel est votre horizon de planification stratégique ? (12/24/36 mois)
+2. Avez-vous une roadmap produit/service existante ?
+3. Quels sont vos jalons critiques pour les 12 prochains mois ?
+4. Comment priorisez-vous vos initiatives actuellement ?
+5. Quels quick wins pourriez-vous atteindre en 90 jours ?
+
+**Budget & Ressources :**
+6. Quel budget avez-vous alloué à la transformation de marque ?
+7. Comment est structuré votre budget (CAPEX/OPEX) ?
+8. Quel ROI attendez-vous de cette initiative ?
+9. Quel est votre modèle de financement (bootstrapping/VC/debt) ?
+10. Quelles sont vos contraintes budgétaires principales ?
+
+**Équipe & Organisation :**
+11. Quelle est votre structure organisationnelle actuelle ?
+12. Quels rôles clés manquent-ils dans votre équipe ?
+13. Avez-vous un plan de recrutement ?
+14. Travaillez-vous avec des partenaires externes (agences, freelances) ?
+15. Comment gérez-vous le changement organisationnel ?
+
+**Lancement & Exécution :**
+16. Quelle est votre expérience de lancement produit/marque ?
+17. Comment communiquez-vous en interne sur la stratégie ?
+18. Quels sont vos indicateurs de succès à court terme (3-6 mois) ?
+19. Quels risques d'implémentation anticipez-vous ?
+20. Avez-vous des dépendances critiques (tech, légal, etc.) ?
+
+*Voir Annexe C pour la banque complète de questions d'entretien (8 piliers).*
+
+---
+
+### Pour Aller Plus Loin
+
+> **Les experts en product management** reconnaîtront les principes du product roadmapping (Inspired par Marty Cagan, Shape Up par Basecamp) appliqués à la stratégie de marque. ADVERTIS adapte ces méthodologies tech au branding parce que l'exécution stratégique suit les mêmes lois : priorisation, séquençage, validation.
+>
+> **Les praticiens de l'OKR (Objectives & Key Results)** retrouveront les principes de goal-setting et tracking. Le Pilier I structure les objectifs stratégiques (issus des piliers S, A, D, V, E, R, T) en résultats mesurables et initiatives concrètes.
+>
+> **Les consultants en change management** reconnaîtront les frameworks de gestion du changement (Kotter, ADKAR). ADVERTIS intègre ces principes dans le Pilier I parce qu'une stratégie de marque est fondamentalement une transformation organisationnelle.
+
+---
+
+**Prochain Chapitre :** [Chapitre 11 : La Matrice de Manipulation](#chapitre-11--la-matrice-de-manipulation--framework-éthique)
+
+---
+
+## Chapitre 3 : S — Strategy : Document + Interface (Dual Nature)
+
+### ADVERTIS v2.0 : Le Pilier S Est Dual
+
+Dans ADVERTIS v2.0, le Pilier S n'est plus uniquement un document PDF. Il a **deux formes complémentaires** :
+
+**1. Document S — Strategy Bible (Statique)**
+- Format : PDF premium 50-120 pages
+- Usage : Référence, présentation board/investisseurs, archivage
+- Update : Trimestriel ou lors de pivots majeurs
+- Audience : C-level, investisseurs, partenaires stratégiques
+
+**2. Interface S — Strategic Cockpit (Dynamique)**
+- Format : Plateforme web interactive
+- Usage : Navigation temps réel, collaboration équipe, visualisation KPI
+- Update : Temps réel via dashboard
+- Audience : Executive team, management, consultants
+
+Cette évolution répond à un problème critique : **les stratégies de 300 pages restent dans un tiroir**. Même un document magnifique n'est pas lu in extenso. L'Interface S transforme la stratégie en outil vivant, navigable, actionnable.
+
+### Quand Utiliser Chaque Format ?
+
+| Contexte | Document S | Interface S |
+|----------|-----------|-------------|
+| **Board meeting** | ✅ Primary | ⚪ Support |
+| **Pitch investisseur** | ✅ Primary | ⚪ Demo |
+| **Travail quotidien équipe** | ⚪ Référence | ✅ Primary |
+| **Audit & compliance** | ✅ Primary | ⚪ Extract |
+| **Présentation client** | ✅ Primary | ✅ Demo |
+| **Suivi KPI temps réel** | ❌ | ✅ Primary |
+| **Exploration stratégie** | ⚪ Lecture linéaire | ✅ Navigation contextuelle |
+
+> **Note importante :** Ce chapitre se concentre sur le **Document S** (Strategy Bible). Pour l'Interface S (Strategic Cockpit), voir :
+> - Guide technique : `interface/INTEGRATION-GUIDE.md`
+> - Architecture : `docs/architecture/INTERFACE-ARCHITECTURE.md`
+> - Démo live : `interface/templates/index.html`
+
+---
+
+### Partie I — Document S : La Strategy Bible
+
+#### Ce Que Le Client Reçoit
+
+Le pilier S (Document) est le pilier de **synthèse** — il agrège et révèle la cohérence de tous les autres piliers (A, D, V, E, R, T, I).
+
+Quand un consultant complète les 8 piliers correctement, le Document de Stratégie S s'écrit pratiquement tout seul. La stratégie n'est pas inventée à la fin — elle est **révélée** par le processus.
+
+Le client reçoit un document unique, complet, actionnable : le **Document de Stratégie de Marque 360°** (50-120 pages).
 
 ### Contenu du Document de Stratégie 360°
 
@@ -1180,7 +1737,7 @@ En tant que praticien de la Méthode ADVERT, je m'engage à :
 
 Vous maîtrisez ADVERT.
 
-Vous avez les 6 piliers. Les variables. Les questions d'entretien. Les templates. Les études de cas. Le framework éthique.
+Vous avez les 8 piliers. Les variables. Les questions d'entretien. Les templates. Les études de cas. Le framework éthique.
 
 Vous pouvez construire des marques complètes, résilientes, et capables de créer des superfans — avec un cahier, un stylo, et la méthode que vous venez de lire.
 
@@ -1200,7 +1757,7 @@ Pour ceux qui font ça au quotidien — 3 marques simultanées, 40+ variables à
 
 ## Mode d'emploi
 
-Ce document est votre **référence rapide**. Il liste TOUTES les variables de la méthode ADVERT avec leur pilier d'appartenance, leur définition, les instructions de remplissage, et l'output attendu.
+Ce document est votre **référence rapide**. Il liste TOUTES les variables de la méthode ADVERTIS avec leur pilier d'appartenance, leur définition, les instructions de remplissage, et l'output attendu.
 
 **Variables prioritaires (★) :** Chaque pilier a 2-3 variables marquées ★. Ce sont celles à traiter en **première passe** — elles portent l'essentiel du pilier. Les autres s'ajoutent en deuxième passe ou via le SaaS. Sur papier, si le temps manque, les ★ suffisent.
 

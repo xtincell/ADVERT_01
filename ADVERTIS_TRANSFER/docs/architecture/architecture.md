@@ -26,9 +26,10 @@ _This document builds collaboratively through step-by-step discovery. Sections a
 
 ADVERT_01 comprend 112 exigences fonctionnelles organisées en 10 domaines de capacités:
 
-1. **Strategy Creation & Management (FRs 11-31):** Système de génération de stratégies guidé par la méthodologie ADVERT à 6 piliers (Attention, Desire, Value, Emotion, Reason, Transformation) avec AI co-pilot conversationnel. Support pour création, édition, versioning, et collaboration.
+1. **Strategy Creation & Management (FRs 11-31):** Système de génération de stratégies guidé par la méthodologie ADVERTIS à 8 piliers (A: Authenticité, D: Distinction, V: Valeur, E: Engagement, R: Risk, T: Track, I: Implementation, S: Strategic Interface) avec AI co-pilot conversationnel. Support pour création, édition, versioning, et collaboration.
+   - **Piliers I & S (v2.0):** Implementation Planner génère feuilles de route exécutables; Strategic Interface Orchestrator produit Interface S (Strategic Cockpit) et Document S (PDF).
 
-2. **AI Co-pilot Intelligence (intégré):** Assistant IA qui guide les utilisateurs à travers les 6 piliers avec questions contextuelles, insights psychologiques, et suggestions adaptées à l'industrie. Streaming responses avec explainability omniprésente.
+2. **AI Co-pilot Intelligence (intégré):** Assistant IA qui guide les utilisateurs à travers les 8 piliers ADVERTIS avec questions contextuelles, insights psychologiques, et suggestions adaptées à l'industrie. Streaming responses avec explainability omniprésente.
 
 3. **User Management & RBAC (FRs 1-10):** Système multi-tenant avec 4 rôles définis (Agency Owners, Brand Directors, Creative Talent, DevTeams). Permissions granulaires, invitation workflows, et team management.
 

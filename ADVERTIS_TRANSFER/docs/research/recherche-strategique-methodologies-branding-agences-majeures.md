@@ -243,7 +243,7 @@ Richard Rumelt définit le "Kernel de Bonne Stratégie" dans son livre "Good Str
 
 **LAYER 1: VARIABLES**
 - **Nature**: Données brutes collectées
-- **Quantité**: 40+ variables réparties sur 6 piliers
+- **Quantité**: 40+ variables réparties sur 8 piliers
 - **Fonction**: Fondation informationnelle du système
 - **Exemples**: Valeurs Schwartz, données démographiques, analyse concurrentielle, insights psychographiques, données AARRR
 
@@ -1481,7 +1481,7 @@ Avec cette méthodologie ADVERT systématique:
 
 **Différence vs Approche Traditionnelle**:
 - **Traditionnel**: "On fait de la mode durable avec un joli site"
-- **ADVERT**: Stratégie cohérente sur 6 piliers avec décisions justifiées par kernels
+- **ADVERT**: Stratégie cohérente sur 8 piliers avec décisions justifiées par kernels
 
 **Force du Système**:
 - **Authenticité**: Transparence radicale différencie et prouve

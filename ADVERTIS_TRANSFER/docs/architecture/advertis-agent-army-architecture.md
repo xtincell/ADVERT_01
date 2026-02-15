@@ -1,14 +1,18 @@
-# Architecture de l'Armée d'Agents ADVERT
+# Architecture de l'Armée d'Agents ADVERTIS
 
-**Date:** 2026-02-05
+**Date:** 2026-02-15
 **Auteur:** BMad Master + spark01
-**Version:** 1.0
+**Version:** 2.0 (ADVERTIS with Piliers I & S)
 
 ---
 
 ## Vue d'Ensemble
 
-Ce document définit l'architecture complète du système multi-agent ADVERT pour la création systématisée de cultes de marque.
+Ce document définit l'architecture complète du système multi-agent ADVERTIS pour la création systématisée de cultes de marque.
+
+ADVERTIS étend le framework original ADVERT avec 2 piliers supplémentaires:
+- **Pilier I (Implementation):** Génération de feuilles de route exécutables avec budget et timelines
+- **Pilier S (Strategic Interface):** Orchestration de l'Interface S (Strategic Cockpit) et génération du Document S
 
 ---
 
@@ -36,10 +40,10 @@ Ce document définit l'architecture complète du système multi-agent ADVERT pou
         │                      │                      │
         ▼                      ▼                      ▼
    ┌─────────────────────────────────────────────────────┐
-   │            LES 6 AGENTS PILIERS                     │
+   │            LES 8 AGENTS PILIERS                     │
    │         (Exécution Séquentielle)                    │
    │                                                     │
-   │   [A] → [D] → [V] → [E] → [R] → [T]                │
+   │   [A] → [D] → [V] → [E] → [R] → [T] → [I] → [S]    │
    └─────────────────────────────────────────────────────┘
 ```
 
@@ -159,7 +163,128 @@ Ce document définit l'architecture complète du système multi-agent ADVERT pou
 | Red Flag Alerter | Tout | Warnings critiques |
 
 **Dépendances:** Agents [A][D][V][E][R] complétés
-**Output:** Fiche ADVERT Complète
+**Output vers:** Agent [I]
+
+---
+
+### [I] Agent IMPLEMENTATION (Planificateur)
+
+**Mission:** Générer feuille de route exécutable avec budget et timeline
+
+| Module | Input | Output |
+|--------|-------|--------|
+| Roadmap Generator | [A-T] insights | 36-month phased roadmap |
+| Dependency Analyzer | Initiatives | Mapping dépendances + critical path |
+| Timeline Optimizer | Dépendances + constraints | Chronologie optimale |
+| Budget Planner | Scope + constraints | Allocation budget par phase |
+| ROI Calculator | Budget + projections | ROI projections 3-6-12 mois |
+| Gantt Diagram Builder | Timeline + budget | Visualisations interactives |
+| Quick Wins Identifier | Roadmap | Wins rapides (0-3 mois) |
+| Launch Plan Generator | Phases | Go-to-market strategy |
+| Resource Mapper | Roadmap | Besoins compétences + équipes |
+
+**Responsabilités:**
+- Transformer insights stratégiques en plan d'exécution détaillé
+- Identifier dépendances entre initiatives
+- Optimiser timeline pour maximiser quick wins
+- Calculer ROI et business case
+- Générer diagrammes Gantt interactifs
+
+**Capabilités:**
+- Dependency analysis (identifier goulots d'étranglement)
+- Timeline optimization (chemin critique)
+- ROI calculation (projection revenue/cost)
+- Gantt diagrams (visuelle interactive)
+- Quick wins identification (premières victoires)
+- Phased breakdown (0-3, 3-6, 6-12, 12+ mois)
+
+**Inputs:**
+- Strategic objectives from [A-T]
+- Budget constraints (total allocation)
+- Time constraints (launch date)
+- Resource availability
+- Market opportunities
+
+**Outputs:**
+- Document I: Implementation Roadmap (strategic execution plan)
+  * Executive summary
+  * 36-month phased roadmap
+  * Detailed phased breakdown (phases 0, 1, 2, 3)
+  * Budget allocation and investment strategy
+  * ROI projections and business case
+  * Team structure requirements
+  * Key milestones (7+)
+  * Change management strategy
+  * Risk mitigation timeline
+
+**Dépendances:** Agents [A][D][V][E][R][T] complétés
+**Output vers:** Agent [S]
+
+---
+
+### [S] Agent INTERFACE (Orchestrateur Cockpit Stratégique)
+
+**Mission:** Orchestrer Strategic Cockpit et générer Document S + Interface S
+
+| Module | Input | Output |
+|--------|-------|--------|
+| Data Aggregator | Outputs [A-I] | Consolidated data hub |
+| Dashboard Builder | Aggregated data | Real-time KPI visualizations |
+| Navigation Engine | Piliers [A-I] | Contextual navigation system |
+| Interactive Roadmap | Agent [I] outputs | Gantt + dependency visualizations |
+| Export Engine | All data | PDF/PPT/Markdown/JSON exports |
+| Presentation Mode | Interface data | Stakeholder presentation flow |
+| Role-Based Personalizer | User context | Personalized views per role |
+| Multi-Format Exporter | Cockpit state | Document S generation (PDF) |
+| Contextual Analyzer | Navigation | Smart recommendations |
+
+**Responsabilités:**
+- Orchestrer Strategic Cockpit (Interface S) - application web unifiée
+- Générer Document S (PDF) - strategic bible
+- Agréger et afficher données temps réel de tous les piliers
+- Offrir navigation contextuelle entre piliers
+- Supporter présentation stakeholders
+- Enabler export multi-formats
+
+**Capabilités:**
+- Data aggregation from all piliers (A-I)
+- Real-time dashboard visualizations
+- Interactive roadmap with Gantt charts
+- Multi-format export (PDF Document S, web, PowerPoint, Markdown)
+- Presentation mode with speaker notes
+- Contextual navigation and smart recommendations
+- Role-based personalization (Agency Owner, Brand Director, Creative, DevTeam)
+- Live KPI tracking and performance scoring
+- Collaborative annotation and commenting
+
+**Inputs:**
+- Outputs from all agents [A-I]
+- User session context (role, preferences)
+- Navigation history
+- Export preferences
+- Presentation settings
+
+**Outputs:**
+- Interface S: Strategic Cockpit (web app)
+  * Navigation across all 8 piliers
+  * Real-time KPI dashboard
+  * Interactive roadmap visualization
+  * Presentation mode
+  * Multi-format export capabilities
+  * Contextual navigation system
+  * Role-based personalized views
+
+- Document S: Strategic Bible (PDF export)
+  * Executive summary
+  * Strategic context overview
+  * Customer insights synthesis
+  * Brand strategy (ADVERTIS synthesis of A-I)
+  * Implementation roadmap (from Agent I)
+  * Performance framework and metrics
+  * Multi-format output (PDF, web, PPT)
+
+**Dépendances:** Agents [A][D][V][E][R][T][I] complétés
+**Output:** Fiche ADVERTIS Complète + Interface S + Document S
 
 ---
 
@@ -218,11 +343,11 @@ Trigger: Sur chaque output avant validation
 
 ## Le Schéma Universel (Protocol Agent)
 
-Chaque agent ADVERT respecte ce schéma:
+Chaque agent ADVERTIS respecte ce schéma:
 
 ```
 ┌─────────────────────────────────────────────────────────┐
-│                   PROTOCOL AGENT ADVERT                 │
+│                   PROTOCOL AGENT ADVERTIS              │
 ├─────────────────────────────────────────────────────────┤
 │                                                         │
 │  1. RECEIVE                                             │
@@ -267,49 +392,61 @@ Chaque agent ADVERT respecte ce schéma:
       │
       ▼
 ┌─────────────┐
-│ CONDUCTOR   │──────────────────────────────────────┐
-└─────┬───────┘                                      │
-      │                                              │
-      ▼                                              │
-┌─────────────┐    ┌──────────┐    ┌──────────┐     │
-│ [A] AUTHEN. │───▶│ SLOP DET │───▶│ VALIDATOR│─────┤
-└─────────────┘    └──────────┘    └──────────┘     │
-      │                                              │
-      ▼                                              │
-┌─────────────┐    ┌──────────┐    ┌──────────┐     │
-│ [D] DISTINC.│───▶│ SLOP DET │───▶│ VALIDATOR│─────┤
-└─────────────┘    └──────────┘    └──────────┘     │
-      │                                              │
-      ▼                                              │
-┌─────────────┐    ┌──────────┐    ┌──────────┐     │
-│ [V] VALEUR  │───▶│ SLOP DET │───▶│ VALIDATOR│─────┤
-└─────────────┘    └──────────┘    └──────────┘     │
-      │                                              │
-      ▼                                              │
-┌─────────────┐    ┌──────────┐    ┌──────────┐     │
-│ [E] ENGAGE. │───▶│ SLOP DET │───▶│ VALIDATOR│─────┤
-└─────────────┘    └──────────┘    └──────────┘     │
-      │                                              │
-      ▼                                              │
-┌─────────────┐    ┌──────────┐    ┌──────────┐     │
-│ [R] RISK    │───▶│ SLOP DET │───▶│ VALIDATOR│─────┤
-└─────────────┘    └──────────┘    └──────────┘     │
-      │                                              │
-      ▼                                              │
-┌─────────────┐                                      │
-│ SYNTHESIS   │◀─────────────────────────────────────┘
+│ CONDUCTOR   │──────────────────────────────────────────┐
+└─────┬───────┘                                          │
+      │                                                  │
+      ▼                                                  │
+┌─────────────┐    ┌──────────┐    ┌──────────┐         │
+│ [A] AUTHEN. │───▶│ SLOP DET │───▶│ VALIDATOR│─────────┤
+└─────────────┘    └──────────┘    └──────────┘         │
+      │                                                  │
+      ▼                                                  │
+┌─────────────┐    ┌──────────┐    ┌──────────┐         │
+│ [D] DISTINC.│───▶│ SLOP DET │───▶│ VALIDATOR│─────────┤
+└─────────────┘    └──────────┘    └──────────┘         │
+      │                                                  │
+      ▼                                                  │
+┌─────────────┐    ┌──────────┐    ┌──────────┐         │
+│ [V] VALEUR  │───▶│ SLOP DET │───▶│ VALIDATOR│─────────┤
+└─────────────┘    └──────────┘    └──────────┘         │
+      │                                                  │
+      ▼                                                  │
+┌─────────────┐    ┌──────────┐    ┌──────────┐         │
+│ [E] ENGAGE. │───▶│ SLOP DET │───▶│ VALIDATOR│─────────┤
+└─────────────┘    └──────────┘    └──────────┘         │
+      │                                                  │
+      ▼                                                  │
+┌─────────────┐    ┌──────────┐    ┌──────────┐         │
+│ [R] RISK    │───▶│ SLOP DET │───▶│ VALIDATOR│─────────┤
+└─────────────┘    └──────────┘    └──────────┘         │
+      │                                                  │
+      ▼                                                  │
+┌─────────────┐    ┌──────────┐    ┌──────────┐         │
+│ [T] TRACK   │───▶│ SLOP DET │───▶│ VALIDATOR│─────────┤
+└─────────────┘    └──────────┘    └──────────┘         │
+      │                                                  │
+      ▼                                                  │
+┌─────────────┐    ┌──────────┐    ┌──────────┐         │
+│ [I] IMPLEM. │───▶│ SLOP DET │───▶│ VALIDATOR│─────────┤
+└─────────────┘    └──────────┘    └──────────┘         │
+      │                                                  │
+      ▼                                                  │
+┌─────────────┐                                          │
+│ SYNTHESIS   │◀─────────────────────────────────────────┘
 └─────┬───────┘
       │
       ▼
 ┌─────────────┐    ┌──────────┐    ┌──────────┐
-│ [T] TRACK   │───▶│ SLOP DET │───▶│ VALIDATOR│
+│ [S] INTERF. │───▶│ SLOP DET │───▶│ VALIDATOR│
 └─────────────┘    └──────────┘    └──────────┘
       │
       ▼
-┌─────────────────────────────────────────────────┐
-│            FICHE ADVERT COMPLETE                │
-│         + STRATEGIE 3-6-12 MOIS                 │
-└─────────────────────────────────────────────────┘
+┌──────────────────────────────────────────────────────┐
+│         FICHE ADVERTIS COMPLETE                      │
+│    + INTERFACE S (Strategic Cockpit)                 │
+│    + DOCUMENT S (Strategic Bible PDF)                │
+│    + STRATEGIE 3-6-12 MOIS                           │
+└──────────────────────────────────────────────────────┘
 ```
 
 ---
@@ -318,20 +455,23 @@ Chaque agent ADVERT respecte ce schéma:
 
 | Type | Nombre | Agents |
 |------|--------|--------|
-| **Piliers** | 6 | A, D, V, E, R, T |
+| **Piliers** | 8 | A, D, V, E, R, T, I, S |
 | **Transversaux** | 4 | Conductor, Validator, Synthesis, Slop Detector |
-| **Total** | **10 agents** | |
-| **Modules** | ~40+ | Répartis dans les 6 piliers |
+| **Total** | **12 agents** | |
+| **Modules** | ~50+ | Répartis dans les 8 piliers |
 
 ---
 
 ## Prochaines Étapes
 
-1. Détailler les prompts de chaque agent
-2. Créer les fichiers agents BMAD-compatible
-3. Définir le shared knowledge base schema
-4. Implémenter le Conductor orchestrator
+1. Détailler les prompts de chaque agent pilier (A-I) et agents transversaux
+2. Créer les fichiers agents BMAD-compatible avec support complet pour Piliers I & S
+3. Définir le shared knowledge base schema pour ADVERTIS complète
+4. Implémenter le Conductor orchestrator avec orchestration I → S
+5. Développer Agent I (Implementation Planner) et ses modules de timeline/budget
+6. Développer Agent S (Interface Orchestrator) et l'Interface S (Strategic Cockpit)
+7. Implémenter multi-format export engine dans Agent S
 
 ---
 
-*Document généré par BMad Master pour le projet ADVERT*
+*Document généré par BMad Master pour le projet ADVERTIS v2.0 (avec Piliers I & S)*
